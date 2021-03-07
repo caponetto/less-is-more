@@ -1,17 +1,17 @@
 {
     "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
+      "target": "ES6",
+      "module": "CommonJS",
       "outDir": "./lib",
       "rootDir": "./src",
       "strict": true,
       "noImplicitAny": true,
-      "moduleResolution": "node",
+      "moduleResolution": "Node",
       "allowSyntheticDefaultImports": true,
       "esModuleInterop": true,
       "declaration": false,
       "inlineSourceMap": true,
-      "lib": ["es6"]
+      "lib": ["ES6"]
     },
     "exclude": ["node_modules", "**/*.test.ts"]
   }

@@ -28,7 +28,7 @@ Name | Type | Description | Default
 ```yaml
 # Build the artifact before using this workflow.
 
-- uses: caponetto/less-is-more@v0.0.7
+- uses: caponetto/less-is-more@v1
   with:
     released_artifact_name: my-released-artifact
     artifact_path: dist/my-artifact.zip

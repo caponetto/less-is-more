@@ -1,14 +1,14 @@
-├─ @actions/core@1.2.6
+├─ @actions/core@1.5.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/actions/toolkit
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/core
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/core/LICENSE.md
-├─ @actions/github@4.0.0
+├─ @actions/github@5.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/actions/toolkit
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/github
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/github/README.md
-├─ @actions/glob@0.1.1
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/github/LICENSE.md
+├─ @actions/glob@0.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/actions/toolkit
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/glob
@@ -26,130 +26,151 @@
 │  ├─ email: sebmck@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/code-frame
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/code-frame/LICENSE
-├─ @babel/code-frame@7.12.13
+├─ @babel/code-frame@7.14.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Sebastian McKenzie
-│  ├─ email: sebmck@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/core/node_modules/@babel/code-frame
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/core/node_modules/@babel/code-frame/LICENSE
-├─ @babel/compat-data@7.13.15
+├─ @babel/compat-data@7.15.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
 │  ├─ publisher: The Babel Team
 │  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/compat-data
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/compat-data/LICENSE
-├─ @babel/core@7.13.15
+├─ @babel/core@7.15.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Sebastian McKenzie
-│  ├─ email: sebmck@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/core
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/core/LICENSE
-├─ @babel/generator@7.13.9
+├─ @babel/generator@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Sebastian McKenzie
-│  ├─ email: sebmck@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/generator
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/generator/LICENSE
-├─ @babel/helper-compilation-targets@7.13.13
+├─ @babel/helper-compilation-targets@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
 │  ├─ publisher: The Babel Team
 │  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-compilation-targets
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-compilation-targets/LICENSE
-├─ @babel/helper-function-name@7.12.13
+├─ @babel/helper-function-name@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-function-name
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-function-name/LICENSE
-├─ @babel/helper-get-function-arity@7.12.13
+├─ @babel/helper-get-function-arity@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-get-function-arity
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-get-function-arity/LICENSE
-├─ @babel/helper-member-expression-to-functions@7.13.12
+├─ @babel/helper-hoist-variables@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Justin Ridgewell
-│  ├─ email: justin@ridgewell.name
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-hoist-variables
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-hoist-variables/LICENSE
+├─ @babel/helper-member-expression-to-functions@7.15.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-member-expression-to-functions
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-member-expression-to-functions/LICENSE
-├─ @babel/helper-module-imports@7.13.12
+├─ @babel/helper-module-imports@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Logan Smyth
-│  ├─ email: loganfsmyth@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-module-imports
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-module-imports/LICENSE
-├─ @babel/helper-module-transforms@7.13.14
+├─ @babel/helper-module-transforms@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Logan Smyth
-│  ├─ email: loganfsmyth@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-module-transforms
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-module-transforms/LICENSE
-├─ @babel/helper-optimise-call-expression@7.12.13
+├─ @babel/helper-optimise-call-expression@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-optimise-call-expression
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-optimise-call-expression/LICENSE
-├─ @babel/helper-plugin-utils@7.13.0
+├─ @babel/helper-plugin-utils@7.14.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Logan Smyth
-│  ├─ email: loganfsmyth@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-plugin-utils
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-plugin-utils/LICENSE
-├─ @babel/helper-replace-supers@7.13.12
+├─ @babel/helper-replace-supers@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-replace-supers
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-replace-supers/LICENSE
-├─ @babel/helper-simple-access@7.13.12
+├─ @babel/helper-simple-access@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Logan Smyth
-│  ├─ email: loganfsmyth@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-simple-access
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-simple-access/LICENSE
-├─ @babel/helper-split-export-declaration@7.12.13
+├─ @babel/helper-split-export-declaration@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-split-export-declaration
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-split-export-declaration/LICENSE
-├─ @babel/helper-validator-identifier@7.12.11
+├─ @babel/helper-validator-identifier@7.14.9
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-validator-identifier
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-validator-identifier/LICENSE
-├─ @babel/helper-validator-option@7.12.17
+├─ @babel/helper-validator-option@7.14.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-validator-option
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helper-validator-option/LICENSE
-├─ @babel/helpers@7.13.10
+├─ @babel/helpers@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Sebastian McKenzie
-│  ├─ email: sebmck@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helpers
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/helpers/LICENSE
-├─ @babel/highlight@7.13.10
+├─ @babel/highlight@7.14.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: suchipi
-│  ├─ email: me@suchipi.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/highlight
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/highlight/LICENSE
-├─ @babel/parser@7.13.15
+├─ @babel/parser@7.15.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Sebastian McKenzie
-│  ├─ email: sebmck@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/parser
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/parser/LICENSE
 ├─ @babel/plugin-syntax-async-generators@7.8.4
@@ -207,30 +228,39 @@
 │  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-optional-chaining
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/plugin-syntax-optional-chaining
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/plugin-syntax-optional-chaining/LICENSE
-├─ @babel/plugin-syntax-top-level-await@7.12.13
+├─ @babel/plugin-syntax-top-level-await@7.14.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/plugin-syntax-top-level-await
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/plugin-syntax-top-level-await/LICENSE
-├─ @babel/template@7.12.13
+├─ @babel/plugin-syntax-typescript@7.14.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Sebastian McKenzie
-│  ├─ email: sebmck@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/plugin-syntax-typescript
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/plugin-syntax-typescript/LICENSE
+├─ @babel/template@7.15.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/template
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/template/LICENSE
-├─ @babel/traverse@7.13.15
+├─ @babel/traverse@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Sebastian McKenzie
-│  ├─ email: sebmck@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/traverse
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/traverse/LICENSE
-├─ @babel/types@7.13.14
+├─ @babel/types@7.15.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Sebastian McKenzie
-│  ├─ email: sebmck@gmail.com
+│  ├─ publisher: The Babel Team
+│  ├─ url: https://babel.dev/team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/types
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/types/LICENSE
 ├─ @bcoe/v8-coverage@0.2.3
@@ -241,19 +271,24 @@
 │  ├─ url: https://demurgos.net
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@bcoe/v8-coverage
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@bcoe/v8-coverage/LICENSE.md
-├─ @cnakazawa/watch@1.0.4
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/mikeal/watch
-│  ├─ publisher: Mikeal Rogers
-│  ├─ email: mikeal.rogers@gmail.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@cnakazawa/watch
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@cnakazawa/watch/LICENSE
-├─ @eslint/eslintrc@0.4.0
+├─ @eslint/eslintrc@0.4.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/eslint/eslintrc
 │  ├─ publisher: Nicholas C. Zakas
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@eslint/eslintrc
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@eslint/eslintrc/LICENSE
+├─ @humanwhocodes/config-array@0.5.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/humanwhocodes/config-array
+│  ├─ publisher: Nicholas C. Zakas
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@humanwhocodes/config-array
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@humanwhocodes/config-array/LICENSE
+├─ @humanwhocodes/object-schema@1.2.0
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/humanwhocodes/object-schema
+│  ├─ publisher: Nicholas C. Zakas
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@humanwhocodes/object-schema
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@humanwhocodes/object-schema/LICENSE
 ├─ @istanbuljs/load-nyc-config@1.1.0
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/istanbuljs/load-nyc-config
@@ -265,66 +300,61 @@
 │  ├─ publisher: Corey Farrell
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/schema
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/schema/LICENSE
-├─ @jest/console@26.6.2
+├─ @jest/console@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/console
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/console/LICENSE
-├─ @jest/core@26.6.3
+├─ @jest/core@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/core
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/core/LICENSE
-├─ @jest/environment@26.6.2
+├─ @jest/environment@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/environment
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/environment/LICENSE
-├─ @jest/fake-timers@26.6.2
+├─ @jest/fake-timers@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/fake-timers
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/fake-timers/LICENSE
-├─ @jest/globals@26.6.2
+├─ @jest/globals@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/globals
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/globals/LICENSE
-├─ @jest/reporters@26.6.2
+├─ @jest/reporters@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/reporters
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/reporters/LICENSE
-├─ @jest/source-map@26.6.2
+├─ @jest/source-map@27.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/source-map
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/source-map/LICENSE
-├─ @jest/test-result@26.6.2
+├─ @jest/test-result@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/test-result
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/test-result/LICENSE
-├─ @jest/test-sequencer@26.6.3
+├─ @jest/test-sequencer@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/test-sequencer
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/test-sequencer/LICENSE
-├─ @jest/transform@26.6.2
+├─ @jest/transform@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/transform
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/transform/LICENSE
-├─ @jest/types@25.5.0
+├─ @jest/types@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/types
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/types/LICENSE
-├─ @jest/types@26.6.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/facebook/jest
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/console/node_modules/@jest/types
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/console/node_modules/@jest/types/LICENSE
 ├─ @nodelib/fs.scandir@2.1.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir
@@ -345,7 +375,7 @@
 │  ├─ repository: https://github.com/octokit/auth-token.js
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/auth-token
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/auth-token/LICENSE
-├─ @octokit/core@3.4.0
+├─ @octokit/core@3.5.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/octokit/core.js
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/core
@@ -360,9 +390,11 @@
 │  ├─ repository: https://github.com/octokit/graphql.js
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/graphql
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/graphql/LICENSE
-├─ @octokit/openapi-types@6.0.0
+├─ @octokit/openapi-types@10.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/octokit/openapi-types.ts
+│  ├─ publisher: Gregor Martynus
+│  ├─ url: https://twitter.com/gr2m
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/openapi-types
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/openapi-types/LICENSE
 ├─ @octokit/plugin-paginate-rest@2.13.3
@@ -370,22 +402,22 @@
 │  ├─ repository: https://github.com/octokit/plugin-paginate-rest.js
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/plugin-paginate-rest
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/plugin-paginate-rest/LICENSE
-├─ @octokit/plugin-rest-endpoint-methods@4.15.0
+├─ @octokit/plugin-rest-endpoint-methods@5.10.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/octokit/plugin-rest-endpoint-methods.js
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/plugin-rest-endpoint-methods
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/plugin-rest-endpoint-methods/LICENSE
-├─ @octokit/request-error@2.0.5
+├─ @octokit/request-error@2.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/octokit/request-error.js
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/request-error
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/request-error/LICENSE
-├─ @octokit/request@5.4.15
+├─ @octokit/request@5.6.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/octokit/request.js
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/request
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/request/LICENSE
-├─ @octokit/types@6.13.0
+├─ @octokit/types@6.27.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/octokit/types.ts
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@octokit/types
@@ -395,28 +427,35 @@
 │  ├─ repository: https://github.com/sinonjs/commons
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@sinonjs/commons
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@sinonjs/commons/LICENSE
-├─ @sinonjs/fake-timers@6.0.1
+├─ @sinonjs/fake-timers@7.1.2
 │  ├─ licenses: BSD-3-Clause
 │  ├─ repository: https://github.com/sinonjs/fake-timers
 │  ├─ publisher: Christian Johansen
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@sinonjs/fake-timers
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@sinonjs/fake-timers/LICENSE
-├─ @types/babel__core@7.1.14
+├─ @tootallnate/once@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/once
+│  ├─ publisher: Nathan Rajlich
+│  ├─ email: nathan@tootallnate.net
+│  ├─ url: http://n8.io/
+│  └─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@tootallnate/once
+├─ @types/babel__core@7.1.15
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/babel__core
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/babel__core/LICENSE
-├─ @types/babel__generator@7.6.2
+├─ @types/babel__generator@7.6.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/babel__generator
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/babel__generator/LICENSE
-├─ @types/babel__template@7.4.0
+├─ @types/babel__template@7.4.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/babel__template
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/babel__template/LICENSE
-├─ @types/babel__traverse@7.11.1
+├─ @types/babel__traverse@7.14.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/babel__traverse
@@ -426,17 +465,12 @@
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/eslint-scope
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/eslint-scope/LICENSE
-├─ @types/eslint-visitor-keys@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/eslint-visitor-keys
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/eslint-visitor-keys/LICENSE
 ├─ @types/eslint@7.2.9
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/eslint
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/eslint/LICENSE
-├─ @types/estree@0.0.46
+├─ @types/estree@0.0.50
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/estree
@@ -456,22 +490,17 @@
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/istanbul-lib-report
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/istanbul-lib-report/LICENSE
-├─ @types/istanbul-reports@1.1.2
+├─ @types/istanbul-reports@3.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/istanbul-reports
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/istanbul-reports/LICENSE
-├─ @types/istanbul-reports@3.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/console/node_modules/@types/istanbul-reports
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/console/node_modules/@types/istanbul-reports/LICENSE
-├─ @types/jest@25.2.3
+├─ @types/jest@27.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/jest
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/jest/LICENSE
-├─ @types/json-schema@7.0.7
+├─ @types/json-schema@7.0.9
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/json-schema
@@ -483,32 +512,32 @@
 │  ├─ email: https://jasonswearingen.github.io
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/json5
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/json5/README.md
-├─ @types/node@13.13.48
+├─ @types/node@16.7.10
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/node
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/node/LICENSE
-├─ @types/normalize-package-data@2.4.0
+├─ @types/normalize-package-data@2.4.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/normalize-package-data
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/normalize-package-data/LICENSE
-├─ @types/prettier@2.2.3
+├─ @types/prettier@2.3.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/prettier
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/prettier/LICENSE
-├─ @types/stack-utils@2.0.0
+├─ @types/stack-utils@2.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/stack-utils
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/stack-utils/LICENSE
-├─ @types/yargs-parser@20.2.0
+├─ @types/yargs-parser@20.2.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/yargs-parser
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/yargs-parser/LICENSE
-├─ @types/yargs@15.0.13
+├─ @types/yargs@16.0.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@types/yargs
@@ -518,136 +547,149 @@
 │  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/eslint-plugin
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/eslint-plugin/LICENSE
-├─ @typescript-eslint/experimental-utils@2.34.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/LICENSE
 ├─ @typescript-eslint/experimental-utils@4.21.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/experimental-utils
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/experimental-utils/LICENSE
-├─ @typescript-eslint/parser@2.34.0
+├─ @typescript-eslint/experimental-utils@4.31.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/LICENSE
+├─ @typescript-eslint/parser@4.31.0
 │  ├─ licenses: BSD-2-Clause
 │  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/parser
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/parser/LICENSE
-├─ @typescript-eslint/parser@4.21.0
-│  ├─ licenses: BSD-2-Clause
-│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-github/node_modules/@typescript-eslint/parser
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-github/node_modules/@typescript-eslint/parser/LICENSE
 ├─ @typescript-eslint/scope-manager@4.21.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/scope-manager
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/scope-manager/LICENSE
+├─ @typescript-eslint/scope-manager@4.31.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/LICENSE
 ├─ @typescript-eslint/types@4.21.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/types
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/types/LICENSE
-├─ @typescript-eslint/typescript-estree@2.34.0
-│  ├─ licenses: BSD-2-Clause
+├─ @typescript-eslint/types@4.31.0
+│  ├─ licenses: MIT
 │  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/typescript-estree
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/typescript-estree/LICENSE
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/types
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/types/LICENSE
 ├─ @typescript-eslint/typescript-estree@4.21.0
 │  ├─ licenses: BSD-2-Clause
 │  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/typescript-estree
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/typescript-estree/LICENSE
+├─ @typescript-eslint/typescript-estree@4.31.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/typescript-estree
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/typescript-estree/LICENSE
 ├─ @typescript-eslint/visitor-keys@4.21.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/visitor-keys
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/visitor-keys/LICENSE
-├─ @vercel/ncc@0.28.2
+├─ @typescript-eslint/visitor-keys@4.31.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/typescript-eslint/typescript-eslint
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/visitor-keys
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/visitor-keys/LICENSE
+├─ @vercel/ncc@0.30.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/vercel/ncc
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@vercel/ncc
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@vercel/ncc/LICENSE
-├─ @webassemblyjs/ast@1.11.0
+├─ @webassemblyjs/ast@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/ast
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/ast/LICENSE
-├─ @webassemblyjs/floating-point-hex-parser@1.11.0
+├─ @webassemblyjs/floating-point-hex-parser@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Mauro Bringolf
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/floating-point-hex-parser
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/floating-point-hex-parser/LICENSE
-├─ @webassemblyjs/helper-api-error@1.11.0
+├─ @webassemblyjs/helper-api-error@1.11.1
 │  ├─ licenses: MIT
+│  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-api-error
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-api-error/LICENSE
-├─ @webassemblyjs/helper-buffer@1.11.0
+├─ @webassemblyjs/helper-buffer@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-buffer
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-buffer/LICENSE
-├─ @webassemblyjs/helper-numbers@1.11.0
+├─ @webassemblyjs/helper-numbers@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-numbers
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-numbers/LICENSE
-├─ @webassemblyjs/helper-wasm-bytecode@1.11.0
+├─ @webassemblyjs/helper-wasm-bytecode@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-wasm-bytecode
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-wasm-bytecode/LICENSE
-├─ @webassemblyjs/helper-wasm-section@1.11.0
+├─ @webassemblyjs/helper-wasm-section@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-wasm-section
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/helper-wasm-section/LICENSE
-├─ @webassemblyjs/ieee754@1.11.0
+├─ @webassemblyjs/ieee754@1.11.1
 │  ├─ licenses: MIT
+│  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/ieee754
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/ieee754/LICENSE
-├─ @webassemblyjs/leb128@1.11.0
+├─ @webassemblyjs/leb128@1.11.1
 │  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/leb128
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/leb128/LICENSE.txt
-├─ @webassemblyjs/utf8@1.11.0
+├─ @webassemblyjs/utf8@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/utf8
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/utf8/LICENSE
-├─ @webassemblyjs/wasm-edit@1.11.0
+├─ @webassemblyjs/wasm-edit@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/wasm-edit
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/wasm-edit/LICENSE
-├─ @webassemblyjs/wasm-gen@1.11.0
+├─ @webassemblyjs/wasm-gen@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/wasm-gen
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/wasm-gen/LICENSE
-├─ @webassemblyjs/wasm-opt@1.11.0
+├─ @webassemblyjs/wasm-opt@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/wasm-opt
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/wasm-opt/LICENSE
-├─ @webassemblyjs/wasm-parser@1.11.0
+├─ @webassemblyjs/wasm-parser@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/wasm-parser
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@webassemblyjs/wasm-parser/LICENSE
-├─ @webassemblyjs/wast-printer@1.11.0
+├─ @webassemblyjs/wast-printer@1.11.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/xtuc/webassemblyjs
 │  ├─ publisher: Sven Sauleau
@@ -688,7 +730,14 @@
 │  ├─ publisher: ForbesLindesay
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/acorn-globals
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/acorn-globals/LICENSE
-├─ acorn-jsx@5.3.1
+├─ acorn-import-assertions@1.7.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/xtuc/acorn-import-assertions
+│  ├─ publisher: Sven Sauleau
+│  ├─ email: sven@sauleau.com
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/webpack/node_modules/acorn-import-assertions
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/webpack/node_modules/acorn-import-assertions/README.md
+├─ acorn-jsx@5.3.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/acornjs/acorn-jsx
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/acorn-jsx
@@ -703,11 +752,19 @@
 │  ├─ repository: https://github.com/acornjs/acorn
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/acorn
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/acorn/LICENSE
-├─ acorn@8.1.0
+├─ acorn@8.5.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/acornjs/acorn
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jsdom/node_modules/acorn
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jsdom/node_modules/acorn/LICENSE
+├─ agent-base@6.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/node-agent-base
+│  ├─ publisher: Nathan Rajlich
+│  ├─ email: nathan@tootallnate.net
+│  ├─ url: http://n8.io/
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/agent-base
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/agent-base/README.md
 ├─ ajv-keywords@3.5.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/epoberezkin/ajv-keywords
@@ -741,14 +798,6 @@
 │  ├─ url: https://sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/ansi-escapes
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/ansi-escapes/license
-├─ ansi-regex@4.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/chalk/ansi-regex
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/strip-ansi/node_modules/ansi-regex
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/strip-ansi/node_modules/ansi-regex/license
 ├─ ansi-regex@5.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/chalk/ansi-regex
@@ -773,13 +822,14 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/ansi-styles
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/ansi-styles/license
-├─ anymatch@2.0.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/micromatch/anymatch
-│  ├─ publisher: Elan Shanker
-│  ├─ url: http://github.com/es128
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/anymatch
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/anymatch/LICENSE
+├─ ansi-styles@5.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-styles
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/pretty-format/node_modules/ansi-styles
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/pretty-format/node_modules/ansi-styles/license
 ├─ anymatch@3.1.2
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/micromatch/anymatch
@@ -792,27 +842,6 @@
 │  ├─ repository: https://github.com/nodeca/argparse
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/argparse
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/argparse/LICENSE
-├─ arr-diff@4.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/arr-diff
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/arr-diff
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/arr-diff/LICENSE
-├─ arr-flatten@1.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/arr-flatten
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/arr-flatten
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/arr-flatten/LICENSE
-├─ arr-union@3.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/arr-union
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/arr-union
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/arr-union/LICENSE
 ├─ array-find-index@1.0.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/array-find-index
@@ -837,13 +866,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/array-union
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/array-union/license
-├─ array-unique@0.3.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/array-unique
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/array-unique
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/array-unique/LICENSE
 ├─ array.prototype.flat@1.2.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/es-shims/Array.prototype.flat
@@ -857,27 +879,6 @@
 │  ├─ repository: https://github.com/kriskowal/asap
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/asap
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/asap/LICENSE.md
-├─ asn1@0.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/joyent/node-asn1
-│  ├─ publisher: Joyent
-│  ├─ url: joyent.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/asn1
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/asn1/LICENSE
-├─ assert-plus@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/mcavage/node-assert-plus
-│  ├─ publisher: Mark Cavage
-│  ├─ email: mcavage@gmail.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/assert-plus
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/assert-plus/README.md
-├─ assign-symbols@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/assign-symbols
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/assign-symbols
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/assign-symbols/LICENSE
 ├─ astral-regex@2.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/kevva/astral-regex
@@ -893,31 +894,7 @@
 │  ├─ email: iam@alexindigo.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/asynckit
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/asynckit/LICENSE
-├─ atob@2.1.2
-│  ├─ licenses: (MIT OR Apache-2.0)
-│  ├─ repository: git://git.coolaj86.com/coolaj86/atob.js
-│  ├─ publisher: AJ ONeal
-│  ├─ email: coolaj86@gmail.com
-│  ├─ url: https://coolaj86.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/atob
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/atob/LICENSE
-├─ aws-sign2@0.7.0
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/mikeal/aws-sign
-│  ├─ publisher: Mikeal Rogers
-│  ├─ email: mikeal.rogers@gmail.com
-│  ├─ url: http://www.futurealoof.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/aws-sign2
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/aws-sign2/LICENSE
-├─ aws4@1.11.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/mhart/aws4
-│  ├─ publisher: Michael Hart
-│  ├─ email: michael.hart.au@gmail.com
-│  ├─ url: https://github.com/mhart
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/aws4
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/aws4/LICENSE
-├─ babel-jest@26.6.3
+├─ babel-jest@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/babel-jest
@@ -928,7 +905,7 @@
 │  ├─ publisher: Thai Pangsakulyanont @dtinth
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/babel-plugin-istanbul
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/babel-plugin-istanbul/LICENSE
-├─ babel-plugin-jest-hoist@26.6.2
+├─ babel-plugin-jest-hoist@27.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/babel-plugin-jest-hoist
@@ -940,7 +917,7 @@
 │  ├─ url: https://github.com/nicolo-ribaudo
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/babel-preset-current-node-syntax
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/babel-preset-current-node-syntax/LICENSE
-├─ babel-preset-jest@26.6.2
+├─ babel-preset-jest@27.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/babel-preset-jest
@@ -953,18 +930,6 @@
 │  ├─ url: http://juliangruber.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/balanced-match
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/balanced-match/LICENSE.md
-├─ base@0.11.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/node-base/base
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/base
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/base/LICENSE
-├─ bcrypt-pbkdf@1.0.2
-│  ├─ licenses: BSD-3-Clause
-│  ├─ repository: https://github.com/joyent/node-bcrypt-pbkdf
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/bcrypt-pbkdf
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/bcrypt-pbkdf/LICENSE
 ├─ before-after-hook@2.2.1
 │  ├─ licenses: Apache-2.0
 │  ├─ repository: https://github.com/gr2m/before-after-hook
@@ -979,13 +944,6 @@
 │  ├─ url: http://juliangruber.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/brace-expansion
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/brace-expansion/LICENSE
-├─ braces@2.3.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/micromatch/braces
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/braces
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/braces/LICENSE
 ├─ braces@3.0.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/micromatch/braces
@@ -999,7 +957,7 @@
 │  ├─ publisher: kumavis
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/browser-process-hrtime
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/browser-process-hrtime/LICENSE
-├─ browserslist@4.16.3
+├─ browserslist@4.17.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/browserslist/browserslist
 │  ├─ publisher: Andrey Sitnik
@@ -1021,18 +979,11 @@
 │  ├─ url: http://wezfurlong.org
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/bser
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/bser/README.md
-├─ buffer-from@1.1.1
+├─ buffer-from@1.1.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/LinusU/buffer-from
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/buffer-from
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/buffer-from/LICENSE
-├─ cache-base@1.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/cache-base
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/cache-base
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/cache-base/LICENSE
 ├─ call-bind@1.0.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ljharb/call-bind
@@ -1064,43 +1015,24 @@
 │  ├─ url: https://sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-validate/node_modules/camelcase
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-validate/node_modules/camelcase/license
-├─ caniuse-lite@1.0.30001208
+├─ caniuse-lite@1.0.30001255
 │  ├─ licenses: CC-BY-4.0
-│  ├─ repository: https://github.com/ben-eb/caniuse-lite
+│  ├─ repository: https://github.com/browserslist/caniuse-lite
 │  ├─ publisher: Ben Briggs
 │  ├─ email: beneb.info@gmail.com
 │  ├─ url: http://beneb.info
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/caniuse-lite
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/caniuse-lite/LICENSE
-├─ capture-exit@2.0.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/stefanpenner/capture-exit
-│  ├─ publisher: Stefan Penner
-│  ├─ email: stefan.penner@gmail.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/capture-exit
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/capture-exit/README.md
-├─ caseless@0.12.0
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/mikeal/caseless
-│  ├─ publisher: Mikeal Rogers
-│  ├─ email: mikeal.rogers@gmail.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/caseless
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/caseless/LICENSE
 ├─ chalk@2.4.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/chalk/chalk
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/highlight/node_modules/chalk
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/highlight/node_modules/chalk/license
-├─ chalk@3.0.0
+├─ chalk@4.1.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/chalk/chalk
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/chalk
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/chalk/license
-├─ chalk@4.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/chalk/chalk
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/console/node_modules/chalk
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@jest/console/node_modules/chalk/license
 ├─ char-regex@1.0.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/Richienb/char-regex
@@ -1114,7 +1046,7 @@
 │  ├─ publisher: Trent Mick, Sam Saccone
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/chrome-trace-event
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/chrome-trace-event/LICENSE.txt
-├─ ci-info@2.0.0
+├─ ci-info@3.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/watson/ci-info
 │  ├─ publisher: Thomas Watson Steen
@@ -1122,33 +1054,19 @@
 │  ├─ url: https://twitter.com/wa7son
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/ci-info
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/ci-info/LICENSE
-├─ cjs-module-lexer@0.6.0
+├─ cjs-module-lexer@1.2.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/guybedford/cjs-module-lexer
 │  ├─ publisher: Guy Bedford
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/cjs-module-lexer
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/cjs-module-lexer/LICENSE
-├─ class-utils@0.3.6
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/class-utils
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/class-utils
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/class-utils/LICENSE
-├─ cliui@5.0.0
+├─ cliui@7.0.4
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/yargs/cliui
 │  ├─ publisher: Ben Coe
 │  ├─ email: ben@npmjs.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/cliui
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/cliui/LICENSE.txt
-├─ cliui@6.0.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/yargs/cliui
-│  ├─ publisher: Ben Coe
-│  ├─ email: ben@npmjs.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/cliui
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/cliui/LICENSE.txt
 ├─ co@4.6.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/tj/co
@@ -1159,13 +1077,6 @@
 │  ├─ repository: https://github.com/SimenB/collect-v8-coverage
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/collect-v8-coverage
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/collect-v8-coverage/LICENSE
-├─ collection-visit@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/collection-visit
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/collection-visit
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/collection-visit/LICENSE
 ├─ color-convert@1.9.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/Qix-/color-convert
@@ -1194,7 +1105,7 @@
 │  ├─ email: dfcreative@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/color-name
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/color-name/LICENSE
-├─ colorette@1.2.2
+├─ colorette@1.3.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jorgebucaran/colorette
 │  ├─ publisher: Jorge Bucaran
@@ -1215,11 +1126,6 @@
 │  ├─ email: tj@vision-media.ca
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/commander
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/commander/LICENSE
-├─ component-emitter@1.3.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/component/emitter
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/component-emitter
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/component-emitter/LICENSE
 ├─ concat-map@0.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/substack/node-concat-map
@@ -1228,9 +1134,9 @@
 │  ├─ url: http://substack.net
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/concat-map
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/concat-map/LICENSE
-├─ concurrently@5.3.0
+├─ concurrently@6.2.1
 │  ├─ licenses: MIT
-│  ├─ repository: https://github.com/kimmobrunfeldt/concurrently
+│  ├─ repository: https://github.com/open-cli-tools/concurrently
 │  ├─ publisher: Kimmo Brunfeldt
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/concurrently
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/concurrently/LICENSE
@@ -1241,7 +1147,7 @@
 │  ├─ url: https://github.com/jonschlinkert
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/contains-path
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/contains-path/LICENSE
-├─ convert-source-map@1.7.0
+├─ convert-source-map@1.8.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/thlorenz/convert-source-map
 │  ├─ publisher: Thorsten Lorenz
@@ -1249,28 +1155,6 @@
 │  ├─ url: http://thlorenz.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/convert-source-map
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/convert-source-map/LICENSE
-├─ copy-descriptor@0.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/copy-descriptor
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/copy-descriptor
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/copy-descriptor/LICENSE
-├─ core-util-is@1.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/isaacs/core-util-is
-│  ├─ publisher: Isaac Z. Schlueter
-│  ├─ email: i@izs.me
-│  ├─ url: http://blog.izs.me/
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/core-util-is
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/core-util-is/LICENSE
-├─ cross-spawn@6.0.5
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/moxystudio/node-cross-spawn
-│  ├─ publisher: André Cruz
-│  ├─ email: andre@moxy.studio
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/cross-spawn
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/cross-spawn/LICENSE
 ├─ cross-spawn@7.0.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/moxystudio/node-cross-spawn
@@ -1297,14 +1181,6 @@
 │  ├─ repository: https://github.com/jsdom/cssstyle
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/cssstyle
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/cssstyle/LICENSE
-├─ dashdash@1.14.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/trentm/node-dashdash
-│  ├─ publisher: Trent Mick
-│  ├─ email: trentm@gmail.com
-│  ├─ url: http://trentm.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/dashdash
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/dashdash/LICENSE.txt
 ├─ data-urls@2.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jsdom/data-urls
@@ -1323,8 +1199,8 @@
 │  ├─ repository: https://github.com/visionmedia/debug
 │  ├─ publisher: TJ Holowaychuk
 │  ├─ email: tj@vision-media.ca
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon/node_modules/debug
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon/node_modules/debug/LICENSE
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-import/node_modules/debug
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-import/node_modules/debug/LICENSE
 ├─ debug@3.2.7
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/visionmedia/debug
@@ -1346,29 +1222,13 @@
 │  ├─ email: sam@strongloop.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/debuglog
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/debuglog/LICENSE
-├─ decamelize@1.2.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/decamelize
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/decamelize
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/decamelize/license
-├─ decimal.js@10.2.1
+├─ decimal.js@10.3.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/MikeMcl/decimal.js
 │  ├─ publisher: Michael Mclaughlin
 │  ├─ email: M8ch88l@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/decimal.js
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/decimal.js/LICENCE.md
-├─ decode-uri-component@0.2.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/SamVerschueren/decode-uri-component
-│  ├─ publisher: Sam Verschueren
-│  ├─ email: sam.verschueren@gmail.com
-│  ├─ url: github.com/SamVerschueren
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/decode-uri-component
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/decode-uri-component/license
 ├─ dedent@0.7.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/dmnd/dedent
@@ -1396,27 +1256,6 @@
 │  ├─ publisher: Jordan Harband
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/define-properties
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/define-properties/LICENSE
-├─ define-property@0.2.5
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/define-property
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/class-utils/node_modules/define-property
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/class-utils/node_modules/define-property/LICENSE
-├─ define-property@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/define-property
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/base/node_modules/define-property
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/base/node_modules/define-property/LICENSE
-├─ define-property@2.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/define-property
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/define-property
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/define-property/LICENSE
 ├─ delayed-stream@1.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/felixge/node-delayed-stream
@@ -1446,16 +1285,11 @@
 │  ├─ url: http://blog.izs.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/dezalgo
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/dezalgo/LICENSE
-├─ diff-sequences@25.2.6
+├─ diff-sequences@27.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/diff-sequences
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/diff-sequences/LICENSE
-├─ diff-sequences@26.6.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/facebook/jest
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-matcher-utils/node_modules/diff-sequences
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-matcher-utils/node_modules/diff-sequences/LICENSE
 ├─ dir-glob@3.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/kevva/dir-glob
@@ -1482,21 +1316,13 @@
 │  ├─ url: https://domenic.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/domexception
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/domexception/LICENSE.txt
-├─ ecc-jsbn@0.1.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/quartzjer/ecc-jsbn
-│  ├─ publisher: Jeremie Miller
-│  ├─ email: jeremie@jabber.org
-│  ├─ url: http://jeremie.com/
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/ecc-jsbn
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/ecc-jsbn/LICENSE
-├─ electron-to-chromium@1.3.712
+├─ electron-to-chromium@1.3.830
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/kilian/electron-to-chromium
 │  ├─ publisher: Kilian Valkhof
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/electron-to-chromium
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/electron-to-chromium/LICENSE
-├─ emittery@0.7.2
+├─ emittery@0.8.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/emittery
 │  ├─ publisher: Sindre Sorhus
@@ -1504,28 +1330,14 @@
 │  ├─ url: https://sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/emittery
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/emittery/license
-├─ emoji-regex@7.0.3
+├─ emoji-regex@8.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/mathiasbynens/emoji-regex
 │  ├─ publisher: Mathias Bynens
 │  ├─ url: https://mathiasbynens.be/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/emoji-regex
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/emoji-regex/LICENSE-MIT.txt
-├─ emoji-regex@8.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/mathiasbynens/emoji-regex
-│  ├─ publisher: Mathias Bynens
-│  ├─ url: https://mathiasbynens.be/
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/emoji-regex
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/emoji-regex/LICENSE-MIT.txt
-├─ end-of-stream@1.4.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/mafintosh/end-of-stream
-│  ├─ publisher: Mathias Buus
-│  ├─ email: mathiasbuus@gmail.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/end-of-stream
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/end-of-stream/LICENSE
-├─ enhanced-resolve@5.7.0
+├─ enhanced-resolve@5.8.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/webpack/enhanced-resolve
 │  ├─ publisher: Tobias Koppers @sokra
@@ -1551,7 +1363,7 @@
 │  ├─ url: http://ljharb.codes
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/es-abstract
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/es-abstract/LICENSE
-├─ es-module-lexer@0.4.1
+├─ es-module-lexer@0.7.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/guybedford/es-module-lexer
 │  ├─ publisher: Guy Bedford
@@ -1588,6 +1400,14 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/stack-utils/node_modules/escape-string-regexp
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/stack-utils/node_modules/escape-string-regexp/license
+├─ escape-string-regexp@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/escape-string-regexp
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint/node_modules/escape-string-regexp
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint/node_modules/escape-string-regexp/license
 ├─ escodegen@2.0.0
 │  ├─ licenses: BSD-2-Clause
 │  ├─ repository: https://github.com/estools/escodegen
@@ -1619,12 +1439,25 @@
 │  ├─ publisher: Toru Nagashima
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-eslint-comments
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-eslint-comments/LICENSE
-├─ eslint-plugin-github@4.1.3
+├─ eslint-plugin-filenames@1.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/selaux/eslint-plugin-filenames
+│  ├─ publisher: Stefan Lau
+│  ├─ email: github@stefanlau.com
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-filenames
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-filenames/README.md
+├─ eslint-plugin-github@4.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/github/eslint-plugin-github
 │  ├─ publisher: GitHub, Inc.
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-github
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-github/LICENSE
+├─ eslint-plugin-i18n-text@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dgraham/eslint-plugin-i18n-text
+│  ├─ publisher: David Graham
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-i18n-text
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-i18n-text/LICENSE
 ├─ eslint-plugin-import@2.22.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/benmosher/eslint-plugin-import
@@ -1632,7 +1465,7 @@
 │  ├─ email: me@benmosher.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-import
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-import/LICENSE
-├─ eslint-plugin-jest@23.20.0
+├─ eslint-plugin-jest@24.4.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jest-community/eslint-plugin-jest
 │  ├─ publisher: Jonathan Kim
@@ -1640,6 +1473,12 @@
 │  ├─ url: jkimbo.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-jest
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-jest/LICENSE
+├─ eslint-plugin-no-only-tests@2.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/levibuzolic/eslint-plugin-no-only-tests
+│  ├─ publisher: Levi Buzolic
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-no-only-tests
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-no-only-tests/LICENSE
 ├─ eslint-plugin-prettier@3.3.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/prettier/eslint-plugin-prettier
@@ -1665,6 +1504,12 @@
 │  ├─ publisher: Toru Nagashima
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-utils
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-utils/LICENSE
+├─ eslint-utils@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mysticatea/eslint-utils
+│  ├─ publisher: Toru Nagashima
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/eslint-utils
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/eslint-utils/LICENSE
 ├─ eslint-visitor-keys@1.3.0
 │  ├─ licenses: Apache-2.0
 │  ├─ repository: https://github.com/eslint/eslint-visitor-keys
@@ -1679,7 +1524,14 @@
 │  ├─ url: https://github.com/mysticatea
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/visitor-keys/node_modules/eslint-visitor-keys
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/visitor-keys/node_modules/eslint-visitor-keys/LICENSE
-├─ eslint@7.24.0
+├─ eslint-visitor-keys@2.1.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/eslint/eslint-visitor-keys
+│  ├─ publisher: Toru Nagashima
+│  ├─ url: https://github.com/mysticatea
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/eslint-visitor-keys
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@typescript-eslint/experimental-utils/node_modules/eslint-visitor-keys/LICENSE
+├─ eslint@7.32.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/eslint/eslint
 │  ├─ publisher: Nicholas C. Zakas
@@ -1735,29 +1587,14 @@
 │  ├─ url: http://jeditoolkit.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/events
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/events/LICENSE
-├─ exec-sh@0.3.6
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/tsertkov/exec-sh
-│  ├─ publisher: Aleksandr Tsertkov
-│  ├─ email: tsertkov@gmail.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/exec-sh
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/exec-sh/LICENSE
-├─ execa@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/execa
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/license
-├─ execa@4.1.0
+├─ execa@5.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/execa
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: https://sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files/node_modules/execa
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files/node_modules/execa/license
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/license
 ├─ exit@0.1.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/cowboy/node-exit
@@ -1765,52 +1602,11 @@
 │  ├─ url: http://benalman.com/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/exit
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/exit/LICENSE-MIT
-├─ expand-brackets@2.1.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/expand-brackets
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/expand-brackets
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/expand-brackets/LICENSE
-├─ expect@26.6.2
+├─ expect@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/expect
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/expect/LICENSE
-├─ extend-shallow@2.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/extend-shallow
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/braces/node_modules/extend-shallow
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/braces/node_modules/extend-shallow/LICENSE
-├─ extend-shallow@3.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/extend-shallow
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/extend-shallow
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/extend-shallow/LICENSE
-├─ extend@3.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/justmoon/node-extend
-│  ├─ publisher: Stefan Thomas
-│  ├─ email: justmoon@members.fsf.org
-│  ├─ url: http://www.justmoon.net
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/extend
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/extend/LICENSE
-├─ extglob@2.0.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/micromatch/extglob
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/extglob
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/extglob/LICENSE
-├─ extsprintf@1.3.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/davepacheco/node-extsprintf
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/extsprintf
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/extsprintf/LICENSE
 ├─ fast-deep-equal@3.1.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/epoberezkin/fast-deep-equal
@@ -1869,13 +1665,6 @@
 │  ├─ url: http://royriojas.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/file-entry-cache
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/file-entry-cache/LICENSE
-├─ fill-range@4.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/fill-range
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/fill-range
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/fill-range/LICENSE
 ├─ fill-range@7.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jonschlinkert/fill-range
@@ -1891,7 +1680,7 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/pkg-dir/node_modules/find-up
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/pkg-dir/node_modules/find-up/license
-├─ find-up@3.0.0
+├─ find-up@4.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/find-up
 │  ├─ publisher: Sindre Sorhus
@@ -1899,14 +1688,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/find-up
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/find-up/license
-├─ find-up@4.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/find-up
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/find-up
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/find-up/license
 ├─ flat-cache@3.0.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/royriojas/flat-cache
@@ -1920,22 +1701,7 @@
 │  ├─ publisher: Andrea Giammarchi
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/flatted
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/flatted/LICENSE
-├─ for-in@1.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/for-in
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/for-in
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/for-in/LICENSE
-├─ forever-agent@0.6.1
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/mikeal/forever-agent
-│  ├─ publisher: Mikeal Rogers
-│  ├─ email: mikeal.rogers@gmail.com
-│  ├─ url: http://www.futurealoof.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/forever-agent
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/forever-agent/LICENSE
-├─ form-data@2.3.3
+├─ form-data@3.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/form-data/form-data
 │  ├─ publisher: Felix Geisendörfer
@@ -1943,13 +1709,6 @@
 │  ├─ url: http://debuggable.com/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/form-data
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/form-data/License
-├─ fragment-cache@0.2.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/fragment-cache
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/fragment-cache
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/fragment-cache/LICENSE
 ├─ fs.realpath@1.0.0
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/isaacs/fs.realpath
@@ -1958,6 +1717,11 @@
 │  ├─ url: http://blog.izs.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/fs.realpath
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/fs.realpath/LICENSE
+├─ fsevents@2.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/fsevents/fsevents
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/fsevents
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/fsevents/LICENSE
 ├─ function-bind@1.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/Raynos/function-bind
@@ -1997,36 +1761,14 @@
 │  ├─ publisher: Corey Farrell
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/get-package-type
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/get-package-type/LICENSE
-├─ get-stream@4.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/get-stream
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/get-stream
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/get-stream/license
-├─ get-stream@5.2.0
+├─ get-stream@6.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/get-stream
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: https://sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files/node_modules/get-stream
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files/node_modules/get-stream/license
-├─ get-value@2.0.6
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/get-value
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/get-value
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/get-value/LICENSE
-├─ getpass@0.1.7
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/arekinath/node-getpass
-│  ├─ publisher: Alex Wilson
-│  ├─ email: alex.wilson@joyent.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/getpass
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/getpass/LICENSE
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/get-stream
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/get-stream/license
 ├─ glob-parent@5.1.2
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/gulpjs/glob-parent
@@ -2058,15 +1800,7 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/traverse/node_modules/globals
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/traverse/node_modules/globals/license
-├─ globals@12.4.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/globals
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: https://sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@eslint/eslintrc/node_modules/globals
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@eslint/eslintrc/node_modules/globals/license
-├─ globals@13.8.0
+├─ globals@13.11.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/globals
 │  ├─ publisher: Sindre Sorhus
@@ -2087,30 +1821,6 @@
 │  ├─ repository: https://github.com/isaacs/node-graceful-fs
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/graceful-fs
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/graceful-fs/LICENSE
-├─ growly@1.3.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/theabraham/growly
-│  ├─ publisher: Ibrahim Al-Rajhi
-│  ├─ email: abrahamalrajhi@gmail.com
-│  ├─ url: http://ibrahimalrajhi.com/
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/growly
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/growly/README.md
-├─ har-schema@2.0.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/ahmadnassri/har-schema
-│  ├─ publisher: Ahmad Nassri
-│  ├─ email: ahmad@ahmadnassri.com
-│  ├─ url: https://www.ahmadnassri.com/
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/har-schema
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/har-schema/LICENSE
-├─ har-validator@5.1.5
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ahmadnassri/node-har-validator
-│  ├─ publisher: Ahmad Nassri
-│  ├─ email: ahmad@ahmadnassri.com
-│  ├─ url: https://www.ahmadnassri.com/
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/har-validator
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/har-validator/LICENSE
 ├─ has-bigints@1.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ljharb/has-bigints
@@ -2142,34 +1852,6 @@
 │  ├─ url: http://ljharb.codes
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/has-symbols
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/has-symbols/LICENSE
-├─ has-value@0.3.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/has-value
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/unset-value/node_modules/has-value
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/unset-value/node_modules/has-value/LICENSE
-├─ has-value@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/has-value
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/has-value
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/has-value/LICENSE
-├─ has-values@0.1.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/has-values
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/unset-value/node_modules/has-values
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/unset-value/node_modules/has-values/LICENSE
-├─ has-values@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/has-values
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/has-values
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/has-values/LICENSE
 ├─ has@1.0.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/tarruda/has
@@ -2199,13 +1881,23 @@
 │  ├─ publisher: Andrea Giammarchi
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/html-escaper
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/html-escaper/LICENSE.txt
-├─ http-signature@1.2.0
+├─ http-proxy-agent@4.0.1
 │  ├─ licenses: MIT
-│  ├─ repository: https://github.com/joyent/node-http-signature
-│  ├─ publisher: Joyent, Inc
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/http-signature
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/http-signature/LICENSE
-├─ human-signals@1.1.1
+│  ├─ repository: https://github.com/TooTallNate/node-http-proxy-agent
+│  ├─ publisher: Nathan Rajlich
+│  ├─ email: nathan@tootallnate.net
+│  ├─ url: http://n8.io/
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/http-proxy-agent
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/http-proxy-agent/README.md
+├─ https-proxy-agent@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/node-https-proxy-agent
+│  ├─ publisher: Nathan Rajlich
+│  ├─ email: nathan@tootallnate.net
+│  ├─ url: http://n8.io/
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/https-proxy-agent
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/https-proxy-agent/README.md
+├─ human-signals@2.1.0
 │  ├─ licenses: Apache-2.0
 │  ├─ repository: https://github.com/ehmicky/human-signals
 │  ├─ publisher: ehmicky
@@ -2230,8 +1922,8 @@
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/kaelzhang/node-ignore
 │  ├─ publisher: kael
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-eslint-comments/node_modules/ignore
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-eslint-comments/node_modules/ignore/LICENSE-MIT
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/globby/node_modules/ignore
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/globby/node_modules/ignore/LICENSE-MIT
 ├─ import-fresh@3.3.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/import-fresh
@@ -2269,20 +1961,6 @@
 │  ├─ repository: https://github.com/isaacs/inherits
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/inherits
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/inherits/LICENSE
-├─ is-accessor-descriptor@0.1.6
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-accessor-descriptor
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-accessor-descriptor
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-accessor-descriptor/LICENSE
-├─ is-accessor-descriptor@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-accessor-descriptor
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/base/node_modules/is-accessor-descriptor
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/base/node_modules/is-accessor-descriptor/LICENSE
 ├─ is-arrayish@0.2.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/qix-/node-is-arrayish
@@ -2304,14 +1982,6 @@
 │  ├─ email: ljharb@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-boolean-object
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-boolean-object/LICENSE
-├─ is-buffer@1.1.6
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/feross/is-buffer
-│  ├─ publisher: Feross Aboukhadijeh
-│  ├─ email: feross@feross.org
-│  ├─ url: http://feross.org/
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-buffer
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-buffer/LICENSE
 ├─ is-callable@1.2.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ljharb/is-callable
@@ -2320,7 +1990,7 @@
 │  ├─ url: http://ljharb.codes
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-callable
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-callable/LICENSE
-├─ is-ci@2.0.0
+├─ is-ci@3.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/watson/is-ci
 │  ├─ publisher: Thomas Watson Steen
@@ -2335,62 +2005,12 @@
 │  ├─ email: ljharb@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-core-module
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-core-module/LICENSE
-├─ is-data-descriptor@0.1.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-data-descriptor
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-data-descriptor
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-data-descriptor/LICENSE
-├─ is-data-descriptor@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-data-descriptor
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/base/node_modules/is-data-descriptor
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/base/node_modules/is-data-descriptor/LICENSE
 ├─ is-date-object@1.0.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ljharb/is-date-object
 │  ├─ publisher: Jordan Harband
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-date-object
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-date-object/LICENSE
-├─ is-descriptor@0.1.6
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-descriptor
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-descriptor
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-descriptor/LICENSE
-├─ is-descriptor@1.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-descriptor
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/base/node_modules/is-descriptor
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/base/node_modules/is-descriptor/LICENSE
-├─ is-docker@2.2.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/is-docker
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: https://sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-docker
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-docker/license
-├─ is-extendable@0.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-extendable
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-extendable
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-extendable/LICENSE
-├─ is-extendable@1.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-extendable
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/extend-shallow/node_modules/is-extendable
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/extend-shallow/node_modules/is-extendable/LICENSE
 ├─ is-extglob@2.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jonschlinkert/is-extglob
@@ -2398,7 +2018,7 @@
 │  ├─ url: https://github.com/jonschlinkert
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-extglob
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-extglob/LICENSE
-├─ is-fullwidth-code-point@2.0.0
+├─ is-fullwidth-code-point@3.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/is-fullwidth-code-point
 │  ├─ publisher: Sindre Sorhus
@@ -2406,14 +2026,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-fullwidth-code-point
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-fullwidth-code-point/license
-├─ is-fullwidth-code-point@3.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/is-fullwidth-code-point
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/is-fullwidth-code-point
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/is-fullwidth-code-point/license
 ├─ is-generator-fn@2.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/is-generator-fn
@@ -2443,13 +2055,6 @@
 │  ├─ email: ljharb@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-number-object
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-number-object/LICENSE
-├─ is-number@3.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-number
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/is-number
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/is-number/LICENSE
 ├─ is-number@7.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jonschlinkert/is-number
@@ -2457,13 +2062,6 @@
 │  ├─ url: https://github.com/jonschlinkert
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-number
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-number/LICENSE
-├─ is-plain-object@2.0.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-plain-object
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/set-value/node_modules/is-plain-object
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/set-value/node_modules/is-plain-object/LICENSE
 ├─ is-plain-object@5.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jonschlinkert/is-plain-object
@@ -2485,22 +2083,14 @@
 │  ├─ email: ljharb@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-regex
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-regex/LICENSE
-├─ is-stream@1.1.0
+├─ is-stream@2.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/is-stream
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
+│  ├─ url: https://sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-stream
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-stream/license
-├─ is-stream@2.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/is-stream
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files/node_modules/is-stream
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files/node_modules/is-stream/license
 ├─ is-string@1.0.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ljharb/is-string
@@ -2523,21 +2113,6 @@
 │  ├─ url: http://hughsk.io/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-typedarray
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-typedarray/LICENSE.md
-├─ is-windows@1.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/is-windows
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-windows
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-windows/LICENSE
-├─ is-wsl@2.2.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/is-wsl
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-wsl
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-wsl/license
 ├─ isarray@1.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/juliangruber/isarray
@@ -2554,27 +2129,6 @@
 │  ├─ url: http://blog.izs.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/isexe
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/isexe/LICENSE
-├─ isobject@2.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/isobject
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/unset-value/node_modules/has-value/node_modules/isobject
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/unset-value/node_modules/has-value/node_modules/isobject/LICENSE
-├─ isobject@3.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/isobject
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/isobject
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/isobject/LICENSE
-├─ isstream@0.1.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/rvagg/isstream
-│  ├─ publisher: Rod Vagg
-│  ├─ email: rod@vagg.org
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/isstream
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/isstream/LICENSE.md
 ├─ istanbul-lib-coverage@3.0.0
 │  ├─ licenses: BSD-3-Clause
 │  ├─ repository: https://github.com/istanbuljs/istanbuljs
@@ -2610,94 +2164,84 @@
 │  ├─ email: kananthmail-github@yahoo.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/istanbul-reports
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/istanbul-reports/LICENSE
-├─ jest-changed-files@26.6.2
+├─ jest-changed-files@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files/LICENSE
-├─ jest-circus@26.6.3
+├─ jest-circus@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-circus
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-circus/LICENSE
-├─ jest-cli@26.6.3
+├─ jest-cli@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest/node_modules/jest-cli
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest/node_modules/jest-cli/LICENSE
-├─ jest-config@26.6.3
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-cli
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-cli/LICENSE
+├─ jest-config@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-config
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-config/LICENSE
-├─ jest-diff@25.5.0
+├─ jest-diff@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-diff
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-diff/LICENSE
-├─ jest-diff@26.6.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/facebook/jest
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-matcher-utils/node_modules/jest-diff
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-matcher-utils/node_modules/jest-diff/LICENSE
-├─ jest-docblock@26.0.0
+├─ jest-docblock@27.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-docblock
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-docblock/LICENSE
-├─ jest-each@26.6.2
+├─ jest-each@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ publisher: Matt Phillips
 │  ├─ url: mattphillips
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-each
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-each/LICENSE
-├─ jest-environment-jsdom@26.6.2
+├─ jest-environment-jsdom@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-environment-jsdom
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-environment-jsdom/LICENSE
-├─ jest-environment-node@26.6.2
+├─ jest-environment-node@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-environment-node
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-environment-node/LICENSE
-├─ jest-get-type@25.2.6
+├─ jest-get-type@27.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-get-type
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-get-type/LICENSE
-├─ jest-get-type@26.3.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/facebook/jest
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-config/node_modules/jest-get-type
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-config/node_modules/jest-get-type/LICENSE
-├─ jest-haste-map@26.6.2
+├─ jest-haste-map@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-haste-map
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-haste-map/LICENSE
-├─ jest-jasmine2@26.6.3
+├─ jest-jasmine2@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-jasmine2
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-jasmine2/LICENSE
-├─ jest-leak-detector@26.6.2
+├─ jest-leak-detector@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-leak-detector
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-leak-detector/LICENSE
-├─ jest-matcher-utils@26.6.2
+├─ jest-matcher-utils@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-matcher-utils
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-matcher-utils/LICENSE
-├─ jest-message-util@26.6.2
+├─ jest-message-util@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-message-util
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-message-util/LICENSE
-├─ jest-mock@26.6.2
+├─ jest-mock@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-mock
@@ -2707,62 +2251,62 @@
 │  ├─ repository: https://github.com/arcanis/jest-pnp-resolver
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-pnp-resolver
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-pnp-resolver/README.md
-├─ jest-regex-util@26.0.0
+├─ jest-regex-util@27.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-regex-util
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-regex-util/LICENSE
-├─ jest-resolve-dependencies@26.6.3
+├─ jest-resolve-dependencies@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve-dependencies
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve-dependencies/LICENSE
-├─ jest-resolve@26.6.2
+├─ jest-resolve@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve/LICENSE
-├─ jest-runner@26.6.3
+├─ jest-runner@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runner
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runner/LICENSE
-├─ jest-runtime@26.6.3
+├─ jest-runtime@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/LICENSE
-├─ jest-serializer@26.6.2
+├─ jest-serializer@27.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-serializer
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-serializer/LICENSE
-├─ jest-snapshot@26.6.2
+├─ jest-snapshot@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-snapshot
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-snapshot/LICENSE
-├─ jest-util@26.6.2
+├─ jest-util@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-util
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-util/LICENSE
-├─ jest-validate@26.6.2
+├─ jest-validate@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-validate
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-validate/LICENSE
-├─ jest-watcher@26.6.2
+├─ jest-watcher@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-watcher
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-watcher/LICENSE
-├─ jest-worker@26.6.2
+├─ jest-worker@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-worker
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-worker/LICENSE
-├─ jest@26.6.3
+├─ jest@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest
@@ -2780,13 +2324,7 @@
 │  ├─ email: dervus.grim@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/js-yaml
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/js-yaml/LICENSE
-├─ jsbn@0.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/andyperlitch/jsbn
-│  ├─ publisher: Tom Wu
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jsbn
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jsbn/LICENSE
-├─ jsdom@16.5.2
+├─ jsdom@16.7.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jsdom/jsdom
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jsdom
@@ -2824,14 +2362,6 @@
 │  ├─ publisher: Evgeny Poberezkin
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/table/node_modules/json-schema-traverse
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/table/node_modules/json-schema-traverse/LICENSE
-├─ json-schema@0.2.3
-│  ├─ licenses
-│  │  ├─ 0: AFLv2.1
-│  │  └─ 1: BSD
-│  ├─ repository: https://github.com/kriszyp/json-schema
-│  ├─ publisher: Kris Zyp
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/json-schema
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/json-schema/README.md
 ├─ json-stable-stringify-without-jsonify@1.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/samn/json-stable-stringify
@@ -2840,14 +2370,6 @@
 │  ├─ url: http://substack.net
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/json-stable-stringify-without-jsonify
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/json-stable-stringify-without-jsonify/LICENSE
-├─ json-stringify-safe@5.0.1
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/isaacs/json-stringify-safe
-│  ├─ publisher: Isaac Z. Schlueter
-│  ├─ email: i@izs.me
-│  ├─ url: http://blog.izs.me
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/json-stringify-safe
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/json-stringify-safe/LICENSE
 ├─ json5@1.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/json5/json5
@@ -2862,39 +2384,6 @@
 │  ├─ email: aseem.kishore@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/core/node_modules/json5
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/core/node_modules/json5/LICENSE.md
-├─ jsprim@1.4.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/joyent/node-jsprim
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jsprim
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jsprim/LICENSE
-├─ kind-of@3.2.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/kind-of
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/is-number/node_modules/kind-of
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/is-number/node_modules/kind-of/LICENSE
-├─ kind-of@4.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/kind-of
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/has-values/node_modules/kind-of
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/has-values/node_modules/kind-of/LICENSE
-├─ kind-of@5.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/kind-of
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-descriptor/node_modules/kind-of
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/is-descriptor/node_modules/kind-of/LICENSE
-├─ kind-of@6.0.3
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/kind-of
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/kind-of
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/kind-of/LICENSE
 ├─ kleur@3.0.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lukeed/kleur
@@ -2903,7 +2392,7 @@
 │  ├─ url: lukeed.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/kleur
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/kleur/license
-├─ less-is-more@0.0.7
+├─ less-is-more@1.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/caponetto/less-is-more
 │  ├─ publisher: Guilherme H. Caponetto
@@ -2967,7 +2456,7 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/pkg-dir/node_modules/locate-path
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/pkg-dir/node_modules/locate-path/license
-├─ locate-path@3.0.0
+├─ locate-path@5.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/locate-path
 │  ├─ publisher: Sindre Sorhus
@@ -2975,14 +2464,14 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/locate-path
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/locate-path/license
-├─ locate-path@5.0.0
+├─ lodash.camelcase@4.3.0
 │  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/locate-path
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/locate-path
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/locate-path/license
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.camelcase
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.camelcase/LICENSE
 ├─ lodash.clonedeep@4.5.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lodash/lodash
@@ -2999,14 +2488,29 @@
 │  ├─ url: http://allyoucanleet.com/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.flatten
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.flatten/LICENSE
-├─ lodash.memoize@4.1.2
+├─ lodash.kebabcase@4.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lodash/lodash
 │  ├─ publisher: John-David Dalton
 │  ├─ email: john.david.dalton@gmail.com
 │  ├─ url: http://allyoucanleet.com/
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.memoize
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.memoize/LICENSE
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.kebabcase
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.kebabcase/LICENSE
+├─ lodash.merge@4.6.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.merge
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.merge/LICENSE
+├─ lodash.snakecase@4.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.snakecase
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.snakecase/LICENSE
 ├─ lodash.truncate@4.4.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lodash/lodash
@@ -3015,6 +2519,14 @@
 │  ├─ url: http://allyoucanleet.com/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.truncate
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.truncate/LICENSE
+├─ lodash.upperfirst@4.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.upperfirst
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/lodash.upperfirst/LICENSE
 ├─ lodash@4.17.21
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lodash/lodash
@@ -3051,20 +2563,6 @@
 │  ├─ email: n@daaku.org
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/makeerror
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/makeerror/license
-├─ map-cache@0.2.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/map-cache
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/map-cache
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/map-cache/LICENSE
-├─ map-visit@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/map-visit
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/map-visit
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/map-visit/LICENSE
 ├─ merge-stream@2.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/grncdr/merge-stream
@@ -3077,13 +2575,6 @@
 │  ├─ repository: https://github.com/teambition/merge2
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/merge2
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/merge2/LICENSE
-├─ micromatch@3.1.10
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/micromatch/micromatch
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/micromatch
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/micromatch/LICENSE
 ├─ micromatch@4.0.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/micromatch/micromatch
@@ -3125,13 +2616,6 @@
 │  ├─ url: http://substack.net
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/minimist
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/minimist/LICENSE
-├─ mixin-deep@1.3.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/mixin-deep
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/mixin-deep
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/mixin-deep/LICENSE
 ├─ mkdirp@0.5.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/substack/node-mkdirp
@@ -3143,20 +2627,13 @@
 ├─ ms@2.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/zeit/ms
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon/node_modules/ms
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon/node_modules/ms/license.md
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-import/node_modules/ms
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/eslint-plugin-import/node_modules/ms/license.md
 ├─ ms@2.1.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/zeit/ms
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/ms
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/ms/license.md
-├─ nanomatch@1.2.13
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/micromatch/nanomatch
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/nanomatch
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/nanomatch/LICENSE
 ├─ natural-compare@1.4.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/litejs/natural-compare-lite
@@ -3169,11 +2646,6 @@
 │  ├─ repository: https://github.com/suguru03/neo-async
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/neo-async
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/neo-async/LICENSE
-├─ nice-try@1.0.5
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/electerious/nice-try
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/nice-try
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/nice-try/LICENSE
 ├─ node-fetch@2.6.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/bitinn/node-fetch
@@ -3195,13 +2667,7 @@
 │  ├─ url: github.com/jamestalmage
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/node-modules-regexp
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/node-modules-regexp/license
-├─ node-notifier@8.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/mikaelbr/node-notifier
-│  ├─ publisher: Mikael Brevik
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/node-notifier
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/node-notifier/LICENSE
-├─ node-releases@1.1.71
+├─ node-releases@1.1.75
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/chicoxyzzy/node-releases
 │  ├─ publisher: Sergey Rubanov
@@ -3223,13 +2689,6 @@
 │  ├─ email: merynstol@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/normalize-package-data
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/normalize-package-data/LICENSE
-├─ normalize-path@2.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/normalize-path
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/normalize-path
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/normalize-path/LICENSE
 ├─ normalize-path@3.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jonschlinkert/normalize-path
@@ -3245,7 +2704,7 @@
 │  ├─ url: https://izs.me
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/npm-normalize-package-bin
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/npm-normalize-package-bin/LICENSE
-├─ npm-run-path@2.0.2
+├─ npm-run-path@4.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/npm-run-path
 │  ├─ publisher: Sindre Sorhus
@@ -3253,14 +2712,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/npm-run-path
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/npm-run-path/license
-├─ npm-run-path@4.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/npm-run-path
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files/node_modules/npm-run-path
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-changed-files/node_modules/npm-run-path/license
 ├─ nwsapi@2.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/dperini/nwsapi
@@ -3269,21 +2720,6 @@
 │  ├─ url: http://www.iport.it/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/nwsapi
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/nwsapi/LICENSE
-├─ oauth-sign@0.9.0
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/mikeal/oauth-sign
-│  ├─ publisher: Mikeal Rogers
-│  ├─ email: mikeal.rogers@gmail.com
-│  ├─ url: http://www.futurealoof.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/oauth-sign
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/oauth-sign/LICENSE
-├─ object-copy@0.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/object-copy
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/object-copy
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/object-copy/LICENSE
 ├─ object-inspect@1.9.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/inspect-js/object-inspect
@@ -3300,26 +2736,12 @@
 │  ├─ url: http://ljharb.codes
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/object-keys
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/object-keys/LICENSE
-├─ object-visit@1.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/object-visit
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/object-visit
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/object-visit/LICENSE
 ├─ object.assign@4.1.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ljharb/object.assign
 │  ├─ publisher: Jordan Harband
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/object.assign
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/object.assign/LICENSE
-├─ object.pick@1.3.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/object.pick
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/object.pick
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/object.pick/LICENSE
 ├─ object.values@1.1.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/es-shims/Object.values
@@ -3389,14 +2811,6 @@
 │  ├─ url: https://sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/p-each-series
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/p-each-series/license
-├─ p-finally@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/p-finally
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/p-finally
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/p-finally/license
 ├─ p-limit@1.3.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/p-limit
@@ -3429,7 +2843,7 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/pkg-dir/node_modules/p-locate
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/pkg-dir/node_modules/p-locate/license
-├─ p-locate@3.0.0
+├─ p-locate@4.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/p-locate
 │  ├─ publisher: Sindre Sorhus
@@ -3437,14 +2851,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/p-locate
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/p-locate/license
-├─ p-locate@4.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/p-locate
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/p-locate
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/p-locate/license
 ├─ p-try@1.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/p-try
@@ -3477,22 +2883,14 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/load-json-file/node_modules/parse-json
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/load-json-file/node_modules/parse-json/license
-├─ parse-json@4.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/parse-json
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/parse-json
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/parse-json/license
 ├─ parse-json@5.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/parse-json
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: https://sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve/node_modules/parse-json
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve/node_modules/parse-json/license
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/parse-json
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/parse-json/license
 ├─ parse5@6.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/inikulin/parse5
@@ -3501,13 +2899,6 @@
 │  ├─ url: https://github.com/inikulin
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/parse5
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/parse5/LICENSE
-├─ pascalcase@0.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/pascalcase
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/pascalcase
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/pascalcase/LICENSE
 ├─ path-exists@3.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/path-exists
@@ -3522,8 +2913,8 @@
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/path-exists
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/path-exists/license
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/find-up/node_modules/path-exists
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/find-up/node_modules/path-exists/license
 ├─ path-is-absolute@1.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/path-is-absolute
@@ -3532,14 +2923,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/path-is-absolute
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/path-is-absolute/license
-├─ path-key@2.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/path-key
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/path-key
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/path-key/license
 ├─ path-key@3.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/path-key
@@ -3548,7 +2931,7 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/path-key
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/path-key/license
-├─ path-parse@1.0.6
+├─ path-parse@1.0.7
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jbgutierrez/path-parse
 │  ├─ publisher: Javier Blanco
@@ -3571,13 +2954,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/path-type
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/path-type/license
-├─ performance-now@2.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/braveg1rl/performance-now
-│  ├─ publisher: Braveg1rl
-│  ├─ email: braveg1rl@outlook.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/performance-now
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/performance-now/license.txt
 ├─ picomatch@2.2.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/micromatch/picomatch
@@ -3593,14 +2969,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/load-json-file/node_modules/pify
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/load-json-file/node_modules/pify/license
-├─ pify@3.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/pify
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/pify
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/pify/license
 ├─ pirates@4.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ariporad/pirates
@@ -3625,13 +2993,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/import-local/node_modules/pkg-dir
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/import-local/node_modules/pkg-dir/license
-├─ posix-character-classes@0.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/posix-character-classes
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/posix-character-classes
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/posix-character-classes/LICENSE
 ├─ prelude-ls@1.1.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/gkz/prelude-ls
@@ -3651,26 +3012,19 @@
 │  ├─ repository: https://github.com/prettier/prettier-linter-helpers
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/prettier-linter-helpers
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/prettier-linter-helpers/LICENSE.md
-├─ prettier@2.2.1
+├─ prettier@2.3.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/prettier/prettier
 │  ├─ publisher: James Long
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/prettier
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/prettier/LICENSE
-├─ pretty-format@25.5.0
+├─ pretty-format@27.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
 │  ├─ publisher: James Kyle
 │  ├─ email: me@thejameskyle.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/pretty-format
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/pretty-format/LICENSE
-├─ pretty-format@26.6.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/facebook/jest
-│  ├─ publisher: James Kyle
-│  ├─ email: me@thejameskyle.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-message-util/node_modules/pretty-format
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-message-util/node_modules/pretty-format/LICENSE
 ├─ progress@2.0.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/visionmedia/node-progress
@@ -3694,13 +3048,6 @@
 │  ├─ url: https://lupomontero.com/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/psl
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/psl/LICENSE
-├─ pump@3.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/mafintosh/pump
-│  ├─ publisher: Mathias Buus Madsen
-│  ├─ email: mathiasbuus@gmail.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/pump
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/pump/LICENSE
 ├─ punycode@2.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/bestiejs/punycode.js
@@ -3708,11 +3055,6 @@
 │  ├─ url: https://mathiasbynens.be/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/punycode
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/punycode/LICENSE-MIT.txt
-├─ qs@6.5.2
-│  ├─ licenses: BSD-3-Clause
-│  ├─ repository: https://github.com/ljharb/qs
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/qs
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/qs/LICENSE
 ├─ queue-microtask@1.2.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/feross/queue-microtask
@@ -3726,16 +3068,11 @@
 │  ├─ repository: https://github.com/crypto-browserify/randombytes
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/randombytes
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/randombytes/LICENSE
-├─ react-is@16.13.1
+├─ react-is@17.0.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/react
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/react-is
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/react-is/LICENSE
-├─ react-is@17.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/facebook/react
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-message-util/node_modules/react-is
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-message-util/node_modules/react-is/LICENSE
 ├─ read-installed@4.0.3
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/isaacs/read-installed
@@ -3760,14 +3097,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/read-pkg-up
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/read-pkg-up/license
-├─ read-pkg-up@7.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/read-pkg-up
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve/node_modules/read-pkg-up
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve/node_modules/read-pkg-up/license
 ├─ read-pkg@2.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/read-pkg
@@ -3776,7 +3105,7 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/read-pkg-up/node_modules/read-pkg
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/read-pkg-up/node_modules/read-pkg/license
-├─ read-pkg@4.0.1
+├─ read-pkg@5.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/read-pkg
 │  ├─ publisher: Sindre Sorhus
@@ -3784,14 +3113,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/read-pkg
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/read-pkg/license
-├─ read-pkg@5.2.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/read-pkg
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve/node_modules/read-pkg
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve/node_modules/read-pkg/license
 ├─ readdir-scoped-modules@1.1.0
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/readdir-scoped-modules
@@ -3800,13 +3121,6 @@
 │  ├─ url: http://blog.izs.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/readdir-scoped-modules
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/readdir-scoped-modules/LICENSE
-├─ regex-not@1.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/regex-not
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/regex-not
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/regex-not/LICENSE
 ├─ regexpp@3.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/mysticatea/regexpp
@@ -3814,47 +3128,6 @@
 │  ├─ url: https://github.com/mysticatea
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/regexpp
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/regexpp/LICENSE
-├─ remove-trailing-separator@1.1.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/darsain/remove-trailing-separator
-│  ├─ publisher: darsain
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/remove-trailing-separator
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/remove-trailing-separator/license
-├─ repeat-element@1.1.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/repeat-element
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/repeat-element
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/repeat-element/LICENSE
-├─ repeat-string@1.6.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/repeat-string
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: http://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/repeat-string
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/repeat-string/LICENSE
-├─ request-promise-core@1.1.4
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/request/promise-core
-│  ├─ publisher: Nicolai Kamenzky
-│  ├─ url: https://github.com/analog-nico
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/request-promise-core
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/request-promise-core/LICENSE
-├─ request-promise-native@1.0.9
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/request/request-promise-native
-│  ├─ publisher: Nicolai Kamenzky
-│  ├─ url: https://github.com/analog-nico
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/request-promise-native
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/request-promise-native/LICENSE
-├─ request@2.88.2
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/request/request
-│  ├─ publisher: Mikeal Rogers
-│  ├─ email: mikeal.rogers@gmail.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/request
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/request/LICENSE
 ├─ require-directory@2.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/troygoode/node-require-directory
@@ -3871,13 +3144,6 @@
 │  ├─ url: github.com/floatdrop
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/require-from-string
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/require-from-string/license
-├─ require-main-filename@2.0.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/yargs/require-main-filename
-│  ├─ publisher: Ben Coe
-│  ├─ email: ben@npmjs.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/require-main-filename
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/require-main-filename/LICENSE.txt
 ├─ resolve-cwd@3.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/resolve-cwd
@@ -3902,12 +3168,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/resolve-from
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@istanbuljs/load-nyc-config/node_modules/resolve-from/license
-├─ resolve-url@0.2.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/lydell/resolve-url
-│  ├─ publisher: Simon Lydell
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/resolve-url
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/resolve-url/LICENSE
 ├─ resolve@1.20.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/browserify/resolve
@@ -3916,13 +3176,6 @@
 │  ├─ url: http://substack.net
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/resolve
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/resolve/LICENSE
-├─ ret@0.1.15
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/fent/ret.js
-│  ├─ publisher: Roly Fentanes
-│  ├─ url: https://github.com/fent
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/ret
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/ret/LICENSE
 ├─ reusify@1.0.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/mcollina/reusify
@@ -3938,12 +3191,6 @@
 │  ├─ url: http://blog.izs.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/rimraf
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/rimraf/LICENSE
-├─ rsvp@4.8.5
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/tildeio/rsvp.js
-│  ├─ publisher: Tilde, Inc. & Stefan Penner
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/rsvp
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/rsvp/LICENSE
 ├─ run-parallel@1.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/feross/run-parallel
@@ -3967,14 +3214,6 @@
 │  ├─ url: http://feross.org
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/safe-buffer
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/safe-buffer/LICENSE
-├─ safe-regex@1.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/substack/safe-regex
-│  ├─ publisher: James Halliday
-│  ├─ email: mail@substack.net
-│  ├─ url: http://substack.net
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/safe-regex
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/safe-regex/LICENSE
 ├─ safer-buffer@2.1.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ChALkeR/safer-buffer
@@ -3983,12 +3222,6 @@
 │  ├─ url: https://github.com/ChALkeR
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/safer-buffer
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/safer-buffer/LICENSE
-├─ sane@4.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/amasad/sane
-│  ├─ publisher: amasad
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/README.md
 ├─ saxes@5.0.1
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/lddubeau/saxes
@@ -3996,7 +3229,7 @@
 │  ├─ email: ldd@lddubeau.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/saxes
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/saxes/README.md
-├─ schema-utils@3.0.0
+├─ schema-utils@3.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/webpack/schema-utils
 │  ├─ publisher: webpack Contrib
@@ -4006,8 +3239,8 @@
 ├─ semver@5.7.1
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/node-semver
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/semver
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/semver/LICENSE
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/normalize-package-data/node_modules/semver
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/normalize-package-data/node_modules/semver/LICENSE
 ├─ semver@6.3.0
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/node-semver
@@ -4018,35 +3251,13 @@
 │  ├─ repository: https://github.com/npm/node-semver
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/semver
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/semver/LICENSE
-├─ serialize-javascript@5.0.1
+├─ serialize-javascript@6.0.0
 │  ├─ licenses: BSD-3-Clause
 │  ├─ repository: https://github.com/yahoo/serialize-javascript
 │  ├─ publisher: Eric Ferraiuolo
 │  ├─ email: edf@ericf.me
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/serialize-javascript
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/serialize-javascript/LICENSE
-├─ set-blocking@2.0.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/yargs/set-blocking
-│  ├─ publisher: Ben Coe
-│  ├─ email: ben@npmjs.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/set-blocking
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/set-blocking/LICENSE.txt
-├─ set-value@2.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/set-value
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/set-value
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/set-value/LICENSE
-├─ shebang-command@1.2.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/kevva/shebang-command
-│  ├─ publisher: Kevin Martensson
-│  ├─ email: kevinmartensson@gmail.com
-│  ├─ url: github.com/kevva
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/shebang-command
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/shebang-command/license
 ├─ shebang-command@2.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/kevva/shebang-command
@@ -4055,14 +3266,6 @@
 │  ├─ url: github.com/kevva
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/shebang-command
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/shebang-command/license
-├─ shebang-regex@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/shebang-regex
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/shebang-regex
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/shebang-regex/license
 ├─ shebang-regex@3.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/shebang-regex
@@ -4071,14 +3274,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/shebang-regex
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/shebang-regex/license
-├─ shellwords@0.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jimmycuadra/shellwords
-│  ├─ publisher: Jimmy Cuadra
-│  ├─ email: jimmy@jimmycuadra.com
-│  ├─ url: http://jimmycuadra.com/
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/shellwords
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/shellwords/LICENSE
 ├─ signal-exit@3.0.3
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/tapjs/signal-exit
@@ -4115,57 +3310,18 @@
 │  ├─ url: http://blog.izs.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/slide
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/slide/LICENSE
-├─ snapdragon-node@2.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/snapdragon-node
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon-node
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon-node/LICENSE
-├─ snapdragon-util@3.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/snapdragon-util
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon-util
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon-util/LICENSE
-├─ snapdragon@0.8.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/snapdragon
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon/LICENSE
-├─ source-list-map@2.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/webpack/source-list-map
-│  ├─ publisher: Tobias Koppers @sokra
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/source-list-map
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/source-list-map/LICENSE
-├─ source-map-resolve@0.5.3
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/lydell/source-map-resolve
-│  ├─ publisher: Simon Lydell
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/source-map-resolve
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/source-map-resolve/LICENSE
 ├─ source-map-support@0.5.19
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/evanw/node-source-map-support
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/source-map-support
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/source-map-support/LICENSE.md
-├─ source-map-url@0.4.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/lydell/source-map-url
-│  ├─ publisher: Simon Lydell
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/source-map-url
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/source-map-url/LICENSE
 ├─ source-map@0.5.7
 │  ├─ licenses: BSD-3-Clause
 │  ├─ repository: https://github.com/mozilla/source-map
 │  ├─ publisher: Nick Fitzgerald
 │  ├─ email: nfitzgerald@mozilla.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon/node_modules/source-map
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/snapdragon/node_modules/source-map/LICENSE
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/generator/node_modules/source-map
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/generator/node_modules/source-map/LICENSE
 ├─ source-map@0.6.1
 │  ├─ licenses: BSD-3-Clause
 │  ├─ repository: https://github.com/mozilla/source-map
@@ -4178,8 +3334,8 @@
 │  ├─ repository: https://github.com/mozilla/source-map
 │  ├─ publisher: Nick Fitzgerald
 │  ├─ email: nfitzgerald@mozilla.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/terser/node_modules/source-map
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/terser/node_modules/source-map/LICENSE
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/v8-to-istanbul/node_modules/source-map
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/v8-to-istanbul/node_modules/source-map/LICENSE
 ├─ spawn-command@0.0.2-1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/mmalecki/spawn-command
@@ -4238,13 +3394,6 @@
 │  ├─ url: https://kemitchell.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/spdx-satisfies
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/spdx-satisfies/LICENSE
-├─ split-string@3.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/split-string
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/split-string
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/split-string/LICENSE
 ├─ sprintf-js@1.0.3
 │  ├─ licenses: BSD-3-Clause
 │  ├─ repository: https://github.com/alexei/sprintf.js
@@ -4253,12 +3402,6 @@
 │  ├─ url: http://alexei.ro/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sprintf-js
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sprintf-js/LICENSE
-├─ sshpk@1.16.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/joyent/node-sshpk
-│  ├─ publisher: Joyent, Inc
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sshpk
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sshpk/LICENSE
 ├─ stack-utils@2.0.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/tapjs/stack-utils
@@ -4267,20 +3410,6 @@
 │  ├─ url: github.com/jamestalmage
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/stack-utils
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/stack-utils/license
-├─ static-extend@0.1.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/static-extend
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/static-extend
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/static-extend/LICENSE
-├─ stealthy-require@1.1.1
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/analog-nico/stealthy-require
-│  ├─ publisher: Nicolai Kamenzky
-│  ├─ url: https://github.com/analog-nico
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/stealthy-require
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/stealthy-require/LICENSE
 ├─ string-length@4.0.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/string-length
@@ -4289,7 +3418,7 @@
 │  ├─ url: https://sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/string-length
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/string-length/license
-├─ string-width@3.1.0
+├─ string-width@4.2.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/string-width
 │  ├─ publisher: Sindre Sorhus
@@ -4297,14 +3426,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/string-width
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/string-width/license
-├─ string-width@4.2.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/string-width
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/string-width
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/string-width/license
 ├─ string.prototype.trimend@1.0.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/es-shims/String.prototype.trimEnd
@@ -4319,7 +3440,7 @@
 │  ├─ email: ljharb@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/string.prototype.trimstart
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/string.prototype.trimstart/LICENSE
-├─ strip-ansi@5.2.0
+├─ strip-ansi@6.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/chalk/strip-ansi
 │  ├─ publisher: Sindre Sorhus
@@ -4327,14 +3448,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/strip-ansi
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/strip-ansi/license
-├─ strip-ansi@6.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/chalk/strip-ansi
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/strip-ansi
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/strip-ansi/license
 ├─ strip-bom@3.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/strip-bom
@@ -4351,14 +3464,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/strip-bom
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/strip-bom/license
-├─ strip-eof@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/strip-eof
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/strip-eof
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/strip-eof/license
 ├─ strip-final-newline@2.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/strip-final-newline
@@ -4383,14 +3488,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/highlight/node_modules/supports-color
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@babel/highlight/node_modules/supports-color/license
-├─ supports-color@6.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/chalk/supports-color
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/concurrently/node_modules/supports-color
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/concurrently/node_modules/supports-color/license
 ├─ supports-color@7.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/chalk/supports-color
@@ -4399,6 +3496,14 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/supports-color
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/supports-color/license
+├─ supports-color@8.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/supports-color
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-worker/node_modules/supports-color
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-worker/node_modules/supports-color/license
 ├─ supports-hyperlinks@2.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jamestalmage/supports-hyperlinks
@@ -4444,13 +3549,13 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/terminal-link
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/terminal-link/license
-├─ terser-webpack-plugin@5.1.1
+├─ terser-webpack-plugin@5.2.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/webpack-contrib/terser-webpack-plugin
 │  ├─ publisher: webpack Contrib Team
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/terser-webpack-plugin
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/terser-webpack-plugin/LICENSE
-├─ terser@5.6.1
+├─ terser@5.7.2
 │  ├─ licenses: BSD-2-Clause
 │  ├─ repository: https://github.com/terser/terser
 │  ├─ publisher: Mihai Bazon
@@ -4473,7 +3578,7 @@
 │  ├─ url: http://substack.net
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/text-table
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/text-table/LICENSE
-├─ throat@5.0.0
+├─ throat@6.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ForbesLindesay/throat
 │  ├─ publisher: ForbesLindesay
@@ -4494,20 +3599,6 @@
 │  ├─ url: sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/to-fast-properties
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/to-fast-properties/license
-├─ to-object-path@0.3.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/to-object-path
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/to-object-path
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/to-object-path/LICENSE
-├─ to-regex-range@2.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/micromatch/to-regex-range
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/to-regex-range
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/sane/node_modules/to-regex-range/LICENSE
 ├─ to-regex-range@5.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/micromatch/to-regex-range
@@ -4515,20 +3606,6 @@
 │  ├─ url: https://github.com/jonschlinkert
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/to-regex-range
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/to-regex-range/LICENSE
-├─ to-regex@3.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/to-regex
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/to-regex
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/to-regex/LICENSE
-├─ tough-cookie@2.5.0
-│  ├─ licenses: BSD-3-Clause
-│  ├─ repository: https://github.com/salesforce/tough-cookie
-│  ├─ publisher: Jeremy Stashewsky
-│  ├─ email: jstash@gmail.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/request/node_modules/tough-cookie
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/request/node_modules/tough-cookie/LICENSE
 ├─ tough-cookie@4.0.0
 │  ├─ licenses: BSD-3-Clause
 │  ├─ repository: https://github.com/salesforce/tough-cookie
@@ -4536,7 +3613,7 @@
 │  ├─ email: jstash@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/tough-cookie
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/tough-cookie/LICENSE
-├─ tr46@2.0.2
+├─ tr46@2.1.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jsdom/tr46
 │  ├─ publisher: Sebastian Mayr
@@ -4558,7 +3635,7 @@
 │  ├─ email: notatestuser@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/treeify
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/treeify/LICENSE
-├─ ts-jest@25.5.1
+├─ ts-jest@27.0.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/kulshekhar/ts-jest
 │  ├─ publisher: Kulshekhar Kabra
@@ -4584,14 +3661,6 @@
 │  ├─ publisher: Klaus Meinhardt
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/tsutils
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/tsutils/LICENSE
-├─ tunnel-agent@0.6.0
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/mikeal/tunnel-agent
-│  ├─ publisher: Mikeal Rogers
-│  ├─ email: mikeal.rogers@gmail.com
-│  ├─ url: http://www.futurealoof.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/tunnel-agent
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/tunnel-agent/LICENSE
 ├─ tunnel@0.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/koichik/node-tunnel
@@ -4599,12 +3668,6 @@
 │  ├─ email: koichik@improvement.jp
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/tunnel
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/tunnel/LICENSE
-├─ tweetnacl@0.14.5
-│  ├─ licenses: Unlicense
-│  ├─ repository: https://github.com/dchest/tweetnacl-js
-│  ├─ publisher: TweetNaCl-js contributors
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/tweetnacl
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/tweetnacl/LICENSE
 ├─ type-check@0.3.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/gkz/type-check
@@ -4641,24 +3704,16 @@
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: https://sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/ansi-escapes/node_modules/type-fest
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/ansi-escapes/node_modules/type-fest/license
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/type-fest
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/type-fest/license
 ├─ type-fest@0.6.0
 │  ├─ licenses: (MIT OR CC0-1.0)
 │  ├─ repository: https://github.com/sindresorhus/type-fest
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve/node_modules/read-pkg/node_modules/type-fest
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-resolve/node_modules/read-pkg/node_modules/type-fest/license
-├─ type-fest@0.8.1
-│  ├─ licenses: (MIT OR CC0-1.0)
-│  ├─ repository: https://github.com/sindresorhus/type-fest
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/type-fest
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/type-fest/license
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/read-pkg/node_modules/type-fest
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/read-pkg/node_modules/type-fest/license
 ├─ typedarray-to-buffer@3.1.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/feross/typedarray-to-buffer
@@ -4667,7 +3722,7 @@
 │  ├─ url: http://feross.org/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/typedarray-to-buffer
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/typedarray-to-buffer/LICENSE
-├─ typescript@3.9.9
+├─ typescript@4.4.2
 │  ├─ licenses: Apache-2.0
 │  ├─ repository: https://github.com/Microsoft/TypeScript
 │  ├─ publisher: Microsoft Corp.
@@ -4680,13 +3735,6 @@
 │  ├─ email: ljharb@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/unbox-primitive
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/unbox-primitive/LICENSE
-├─ union-value@1.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/union-value
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/union-value
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/union-value/LICENSE
 ├─ universal-user-agent@6.0.0
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/gr2m/universal-user-agent
@@ -4699,13 +3747,6 @@
 │  ├─ email: opensrc@ryanzim.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/universalify
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/universalify/LICENSE
-├─ unset-value@1.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/unset-value
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/unset-value
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/unset-value/LICENSE
 ├─ uri-js@4.4.1
 │  ├─ licenses: BSD-2-Clause
 │  ├─ repository: https://github.com/garycourt/uri-js
@@ -4713,34 +3754,11 @@
 │  ├─ email: gary.court@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/uri-js
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/uri-js/LICENSE
-├─ urix@0.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/lydell/urix
-│  ├─ publisher: Simon Lydell
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/urix
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/urix/LICENSE
-├─ use@3.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/jonschlinkert/use
-│  ├─ publisher: Jon Schlinkert
-│  ├─ url: https://github.com/jonschlinkert
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/use
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/use/LICENSE
 ├─ util-extend@1.0.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/isaacs/util-extend
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/util-extend
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/util-extend/LICENSE
-├─ uuid@3.4.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/uuidjs/uuid
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/request/node_modules/uuid
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/request/node_modules/uuid/LICENSE.md
-├─ uuid@8.3.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/uuidjs/uuid
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/uuid
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/uuid/LICENSE.md
 ├─ v8-compile-cache@2.3.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/zertosh/v8-compile-cache
@@ -4748,7 +3766,7 @@
 │  ├─ email: zertosh@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/v8-compile-cache
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/v8-compile-cache/LICENSE
-├─ v8-to-istanbul@7.1.1
+├─ v8-to-istanbul@8.0.0
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/istanbuljs/v8-to-istanbul
 │  ├─ publisher: Ben Coe
@@ -4763,11 +3781,6 @@
 │  ├─ url: https://kemitchell.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/validate-npm-package-license
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/validate-npm-package-license/LICENSE
-├─ verror@1.10.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/davepacheco/node-verror
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/verror
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/verror/LICENSE
 ├─ w3c-hr-time@1.0.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jsdom/w3c-hr-time
@@ -4787,7 +3800,7 @@
 │  ├─ email: n@daaku.org
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/walker
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/walker/LICENSE
-├─ watchpack@2.1.1
+├─ watchpack@2.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/webpack/watchpack
 │  ├─ publisher: Tobias Koppers @sokra
@@ -4809,13 +3822,13 @@
 │  ├─ url: https://domenic.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/webidl-conversions
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/webidl-conversions/LICENSE.md
-├─ webpack-sources@2.2.0
+├─ webpack-sources@3.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/webpack/webpack-sources
 │  ├─ publisher: Tobias Koppers @sokra
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/webpack-sources
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/webpack-sources/LICENSE
-├─ webpack@5.31.2
+├─ webpack@5.52.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/webpack/webpack
 │  ├─ publisher: Tobias Koppers @sokra
@@ -4837,7 +3850,7 @@
 │  ├─ url: https://domenic.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/whatwg-mimetype
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/whatwg-mimetype/LICENSE.txt
-├─ whatwg-url@8.5.0
+├─ whatwg-url@8.7.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jsdom/whatwg-url
 │  ├─ publisher: Sebastian Mayr
@@ -4851,20 +3864,6 @@
 │  ├─ email: ljharb@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/which-boxed-primitive
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/which-boxed-primitive/LICENSE
-├─ which-module@2.0.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/nexdrew/which-module
-│  ├─ publisher: nexdrew
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/which-module
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/which-module/LICENSE
-├─ which@1.3.1
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/isaacs/node-which
-│  ├─ publisher: Isaac Z. Schlueter
-│  ├─ email: i@izs.me
-│  ├─ url: http://blog.izs.me
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/which
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/execa/node_modules/which/LICENSE
 ├─ which@2.0.2
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/isaacs/node-which
@@ -4880,22 +3879,14 @@
 │  ├─ url: https://github.com/jonschlinkert
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/word-wrap
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/word-wrap/LICENSE
-├─ wrap-ansi@5.1.0
+├─ wrap-ansi@7.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/chalk/wrap-ansi
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
+│  ├─ url: https://sindresorhus.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/wrap-ansi
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/wrap-ansi/license
-├─ wrap-ansi@6.2.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/chalk/wrap-ansi
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  ├─ url: sindresorhus.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/wrap-ansi
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/wrap-ansi/license
 ├─ wrappy@1.0.2
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/wrappy
@@ -4912,7 +3903,7 @@
 │  ├─ url: http://re-becca.org
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/write-file-atomic
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/write-file-atomic/LICENSE
-├─ ws@7.4.4
+├─ ws@7.5.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/websockets/ws
 │  ├─ publisher: Einar Otto Stangvik
@@ -4935,11 +3926,11 @@
 │  ├─ email: ldd@lddubeau.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/xmlchars
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/xmlchars/LICENSE
-├─ y18n@4.0.3
+├─ y18n@5.0.8
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/yargs/y18n
 │  ├─ publisher: Ben Coe
-│  ├─ email: ben@npmjs.com
+│  ├─ email: bencoe@gmail.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/y18n
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/y18n/LICENSE
 ├─ yallist@4.0.0
@@ -4950,30 +3941,18 @@
 │  ├─ url: http://blog.izs.me/
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/yallist
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/yallist/LICENSE
-├─ yargs-parser@13.1.2
+├─ yargs-parser@20.2.9
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/yargs/yargs-parser
 │  ├─ publisher: Ben Coe
 │  ├─ email: ben@npmjs.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/yargs-parser
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/yargs-parser/LICENSE.txt
-├─ yargs-parser@18.1.3
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/yargs/yargs-parser
-│  ├─ publisher: Ben Coe
-│  ├─ email: ben@npmjs.com
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/yargs-parser
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/yargs-parser/LICENSE.txt
-├─ yargs@13.3.2
+├─ yargs@16.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/yargs/yargs
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/yargs
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/yargs/LICENSE
-├─ yargs@15.4.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/yargs/yargs
-│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/yargs
-│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/jest-runtime/node_modules/yargs/LICENSE
 └─ yocto-queue@0.1.0
    ├─ licenses: MIT
    ├─ repository: https://github.com/sindresorhus/yocto-queue
