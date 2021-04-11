@@ -1,8 +1,8 @@
 name: "Less is more - artifact size"
 description: "Be aware of the increase percentage of your artifact."
 branding:
-  icon: 'bar-chart'
-  color: 'green'
+  icon: 'bar-chart-2'
+  color: 'purple'
 inputs:
   released_artifact_name:
     description: "The file name of the released artifact (or part of it)."
