@@ -1,5 +1,5 @@
-name: "Less is more"
-description: "Simply fails if the current artifact size has increased more than what is allowed when compared to the latest released artifact."
+name: "Less is more - artifact size"
+description: "Be aware of the increase percentage of your artifact."
 inputs:
   released_artifact_name:
     description: "The file name of the released artifact (or part of it)."
