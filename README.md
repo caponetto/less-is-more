@@ -3,7 +3,7 @@
 This workflow will simply fail if the current artifact size has increased more than what is allowed when compared to the latest released artifact. It could be very useful to early identify unwanted size increases, especially on workflows that run for pull requests.
 
 ## Required input arguments
-- **released_artifact_name**: The filename of the released artifact (or part of it).
+- **released_artifact_name**: The filename of the released artifact (or a unique part of it).
 - **artifact_path**: The path of the current artifact that has been built.
 - **max_increase_percentage**: The maximum increase percentage allowed.
 ## Usage
