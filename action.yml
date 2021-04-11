@@ -1,7 +1,7 @@
 name: "Less is more - artifact size"
 description: "Be aware of the increase percentage of your artifact."
 branding:
-  icon: 'bar-chart'  
+  icon: 'bar-chart'
   color: 'green'
 inputs:
   released_artifact_name:
@@ -15,4 +15,4 @@ inputs:
     required: true
 runs:
   using: "node12"
-  main: "index.js"
+  main: "dist/index.js"
