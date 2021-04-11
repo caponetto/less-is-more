@@ -1,4 +1,4 @@
-# less-is-more
+# less-is-more v0.0.1
 
 This workflow will simply fail if the current artifact size has increased more than what is allowed when compared to the latest released artifact. It could be very useful to early identify unwanted size increases, especially on workflows that run for pull requests.
 
@@ -14,7 +14,7 @@ This workflow will simply fail if the current artifact size has increased more t
 ```yaml
 # Build the artifact before using this workflow.
 
-- uses: actions/less-is-more@master
+- uses: caponetto/less-is-more@v0.0.1
   with:
     released_artifact_name: my-released-artifact
     artifact_path: dist/my-artifact.zip
