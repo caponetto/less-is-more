@@ -1,8 +1,9 @@
 name: "Less is more - artifact size"
 description: "Be aware of the increase percentage of your artifact."
+author: "Guilherme H. Caponetto"
 branding:
-  icon: 'bar-chart-2'
-  color: 'purple'
+  icon: "bar-chart-2"
+  color: "purple"
 inputs:
   released_artifact_name:
     description: "The file name of the released artifact (or part of it)."
