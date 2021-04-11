@@ -1,0 +1,15 @@
+name: "Less is more"
+description: "Simply fails if the current artifact size has increased more than what is allowed when compared to the latest released artifact."
+inputs:
+  released_artifact_name:
+    description: "The file name of the released artifact (or part of it)."
+    required: true
+  artifact_path:
+    description: "The path of the current artifact that has been built."
+    required: true
+  max_increase_percentage:
+    description: "The maximum increase percentage allowed."
+    required: true
+runs:
+  using: "node12"
+  main: "index.js"

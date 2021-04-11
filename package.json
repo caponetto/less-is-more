@@ -1,0 +1,52 @@
+{
+  "name": "less-is-more",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Guilherme H. Caponetto",
+  "keywords": [
+    "Actions",
+    "GitHub",
+    "Artifacts",
+    "Size"
+  ],
+  "description": "Be aware of the increase percentage of your artifact.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caponetto/less-is-more.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caponetto/less-is-more/issues"
+  },
+  "homepage": "https://github.com/caponetto/less-is-more#readme",
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "release": "rm -rf dist && ncc build src/index.ts --license licenses.txt -m",
+    "check-all": "concurrently \"npm:format-check\" \"npm:lint\" \"npm:test\" \"npm:build\"",
+    "format": "prettier --write **/*.ts",
+    "format-check": "prettier --check **/*.ts",
+    "lint": "eslint **/*.ts",
+    "test": "jest --testTimeout 10000 --passWithNoTests"
+  },
+  "dependencies": {
+    "@actions/core": "1.2.6",
+    "@actions/github": "4.0.0",
+    "@octokit/core": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "@typescript-eslint/parser": "^2.27.0",
+    "@vercel/ncc": "^0.28.2",
+    "concurrently": "^5.1.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-github": "^4.1.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "jest": "^26.6.3",
+    "jest-circus": "^26.1.0",
+    "prettier": "^2.0.4",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3",
+    "webpack": "5.31.2"
+  }
+}
