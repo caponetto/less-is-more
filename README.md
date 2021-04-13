@@ -26,6 +26,7 @@ This workflow will simply fail if the current artifact size has increased more t
     released_artifact_name: my-released-artifact
     artifact_path: dist/my-artifact.zip
     max_increase_percentage: 10
+    github_token: ${{ secrets.MY_TOKEN }}
 
 ```
 ## Contribute
