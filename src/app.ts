@@ -9,6 +9,7 @@ interface WorkflowArgs {
   max_increase_percentage: number
   owner: string
   repo: string
+  token?: string
 }
 
 export interface Artifact {
@@ -27,6 +28,7 @@ function resolve_args(): WorkflowArgs {
   const released_artifact_name = getInput('released_artifact_name')
   const artifact_path = getInput('artifact_path')
   const max_increase_percentage = +getInput('max_increase_percentage')
+  const github_token = getInput('github_token')
 
   if (!existsSync(artifact_path)) {
     throw new Error(
@@ -45,18 +47,25 @@ function resolve_args(): WorkflowArgs {
     artifact_path: artifact_path,
     max_increase_percentage: max_increase_percentage,
     owner: context.repo.owner,
-    repo: context.repo.repo
+    repo: context.repo.repo,
+    token: github_token
   }
 }
 
 export async function get_latest_artifact(
-  released_artifact: Artifact
+  released_artifact: Artifact,
+  token?: string
 ): Promise<any> {
   const response = await request({
     method: 'GET',
     url: '/repos/{owner}/{repo}/releases',
     owner: released_artifact.owner,
-    repo: released_artifact.repo
+    repo: released_artifact.repo,
+    ...(token && {
+      headers: {
+        authorization: `token ${token}`
+      }
+    })
   })
 
   const latest_artifact = response.data[0].assets.find((o: any) =>

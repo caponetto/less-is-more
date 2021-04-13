@@ -9,6 +9,10 @@ This workflow will simply fail if the current artifact size has increased more t
 - **released_artifact_name**: The filename of the released artifact (or a unique part of it).
 - **artifact_path**: The path of the current artifact that has been built.
 - **max_increase_percentage**: The maximum increase percentage allowed.
+
+## Optional input arguments
+- **github_token**: The token to authenticate Octokit (increases your API rate limit).
+
 ## Usage
 **Example**: I want this workflow to fail if the artifact size that I'm building at `dist/my-artifact.zip` has increased more than *10%* when compared to `my-released-artifact`, which is located on GitHub's releases page.
 
