@@ -1,6 +1,6 @@
 {
   "name": "less-is-more",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "Guilherme H. Caponetto",
   "keywords": [
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/caponetto/less-is-more#readme",
   "scripts": {
     "build": "rm -rf lib && tsc",
+    "pre-commit": "license-checker > licenses.txt && npm install && npm run format",
     "release": "rm -rf dist && ncc build src/index.ts --license licenses.txt -m",
     "check-all": "concurrently \"npm:format-check\" \"npm:lint\" \"npm:test\" \"npm:build\"",
     "format": "prettier --write **/*.ts",
@@ -44,6 +45,7 @@
     "eslint-plugin-jest": "^23.8.2",
     "jest": "^26.6.3",
     "jest-circus": "^26.1.0",
+    "license-checker": "25.0.1",
     "prettier": "^2.0.4",
     "ts-jest": "^25.3.1",
     "typescript": "^3.8.3",
