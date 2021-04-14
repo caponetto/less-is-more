@@ -1,7 +1,7 @@
 [![CI](https://github.com/caponetto/less-is-more/actions/workflows/CI.yml/badge.svg)](https://github.com/caponetto/less-is-more/actions/workflows/CI.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# less-is-more v0.0.3
+# less-is-more v0.0.4
 
 This workflow will simply fail if the current artifact size has increased more than what is allowed when compared to the latest released artifact. It could be very useful to early identify unwanted size increases, especially on workflows that run for pull requests.
 
@@ -16,12 +16,12 @@ This workflow will simply fail if the current artifact size has increased more t
 ## Usage
 **Example**: I want this workflow to fail if the artifact size that I'm building at `dist/my-artifact.zip` has increased more than *10%* when compared to `my-released-artifact`, which is located on GitHub's releases page.
 
-**Note**: If your released artifact contains variable parts, such as version, you can omit it. So `my-released-artifact_v1.0.0.zip` can be simply `my-released-artifact`.
+**Note**: If your released artifact contains variable parts, such as version, you can omit it. So `my-released-artifact_v1.0.0.zip` can be simply `my-released-artifact`, or even `my-released-artifact_*.zip`.
 
 ```yaml
 # Build the artifact before using this workflow.
 
-- uses: caponetto/less-is-more@v0.0.3
+- uses: caponetto/less-is-more@v0.0.4
   with:
     released_artifact_name: my-released-artifact
     artifact_path: dist/my-artifact.zip
