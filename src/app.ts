@@ -1,15 +1,11 @@
-import {getInput} from '@actions/core'
-import {context} from '@actions/github'
 import {request} from '@octokit/request'
-import {existsSync, statSync} from 'fs'
+import {statSync} from 'fs'
+import {basename} from 'path'
+import {WorkflowArgs} from './WorkflowArgs'
 
-interface WorkflowArgs {
-  released_artifact_name: string
-  artifact_path: string
-  max_increase_percentage: number
-  owner: string
-  repo: string
-  token?: string
+interface File {
+  name: string
+  size: number
 }
 
 export interface Artifact {
@@ -24,43 +20,15 @@ export type SizeCheckResult =
   | 'increase_allowed'
   | 'increase_not_allowed'
 
-function resolve_args(): WorkflowArgs {
-  const released_artifact_name = getInput('released_artifact_name')
-  const artifact_path = getInput('artifact_path')
-  const max_increase_percentage = +getInput('max_increase_percentage')
-  const github_token = getInput('github_token')
-
-  if (!existsSync(artifact_path)) {
-    throw new Error(
-      `The artifact could not be found at "${artifact_path}". Have you built it already?`
-    )
-  }
-
-  if (max_increase_percentage <= 0) {
-    throw new Error(
-      'The input `max_increase_percentage` must be an integer greater than zero.'
-    )
-  }
-
-  return {
-    released_artifact_name: released_artifact_name,
-    artifact_path: artifact_path,
-    max_increase_percentage: max_increase_percentage,
-    owner: context.repo.owner,
-    repo: context.repo.repo,
-    token: github_token
-  }
-}
-
-export async function get_latest_artifact(
-  released_artifact: Artifact,
+export async function getLatestArtifactFile(
+  releasedArtifact: Artifact,
   token?: string
-): Promise<any> {
+): Promise<File> {
   const response = await request({
     method: 'GET',
     url: '/repos/{owner}/{repo}/releases',
-    owner: released_artifact.owner,
-    repo: released_artifact.repo,
+    owner: releasedArtifact.owner,
+    repo: releasedArtifact.repo,
     ...(token && {
       headers: {
         authorization: `token ${token}`
@@ -68,63 +36,95 @@ export async function get_latest_artifact(
     })
   })
 
-  const latest_artifact = response.data[0].assets.find((o: any) =>
-    o.name.includes(released_artifact.name)
+  const latestArtifact = response.data[0].assets.find(
+    (o: any) =>
+      o.name.includes(releasedArtifact.name) ||
+      matchRule(o.name, releasedArtifact.name)
   )
 
-  if (!latest_artifact) {
-    throw new Error(
-      `The artifact ${released_artifact.name} could not be found.`
-    )
+  if (!latestArtifact) {
+    throw new Error(`The artifact ${releasedArtifact.name} could not be found.`)
   }
 
-  return latest_artifact
+  return {
+    name: latestArtifact.name,
+    size: latestArtifact.size
+  }
 }
 
-export function validate_size(
-  latest_artifact_size: number,
-  current_artifact_size: number,
-  max_increase_percentage: number
+export function validateSize(
+  currentSize: number,
+  releasedSize: number,
+  maxIncreasePercentage: number
 ): SizeCheckResult {
-  if (latest_artifact_size > current_artifact_size) {
+  if (releasedSize > currentSize) {
     console.log('The current artifact size has decreased. Great!')
     return 'decreased'
   }
 
-  if (latest_artifact_size === current_artifact_size) {
+  if (releasedSize === currentSize) {
     console.log('The current artifact size has not changed.')
     return 'same'
   }
 
-  const increase_percentage = Math.round(
-    (current_artifact_size * 100) / latest_artifact_size - 100
+  const increasePercentage = Math.round(
+    (currentSize * 100) / releasedSize - 100
   )
 
-  if (increase_percentage <= max_increase_percentage) {
+  if (increasePercentage <= maxIncreasePercentage) {
     console.log(
-      `The current artifact size has increased ${increase_percentage}%, which *is* allowed.`
+      `The current artifact size has increased ${increasePercentage}%, which *is* allowed.`
     )
     return 'increase_allowed'
   }
 
   console.log(
-    `The current artifact size has increased ${increase_percentage}%, which *is not* allowed.`
+    `The current artifact size has increased ${increasePercentage}%, which *is not* allowed.`
   )
   return 'increase_not_allowed'
 }
 
-export async function run(): Promise<void> {
-  const args = resolve_args()
-  const latest_artifact = await get_latest_artifact({
-    name: args.released_artifact_name,
-    owner: args.owner,
-    repo: args.repo
-  })
-  const current_artifact_stats = statSync(args.artifact_path)
-  const result = validate_size(
-    latest_artifact.size,
-    current_artifact_stats.size,
-    args.max_increase_percentage
+export function matchRule(target: string, rule: string): boolean {
+  return new RegExp(
+    '^' +
+      rule
+        .split('*')
+        .map((s: string) => s.replace(/([.*+?^=!:${}()|[\]/\\])/g, '\\$1'))
+        .join('.*') +
+      '$'
+  ).test(target)
+}
+
+function printInfo(current: File, released: File): void {
+  console.log(
+    `The size of the current file "${current.name}" is ${current.size} bytes.`
+  )
+  console.log(
+    `The size of the released file "${released.name}" is ${released.size} bytes.`
+  )
+}
+
+export async function run(args: WorkflowArgs): Promise<void> {
+  const latestReleasedFile = await getLatestArtifactFile(
+    {
+      name: args.releasedArtifactName,
+      owner: args.owner,
+      repo: args.repo
+    },
+    args.token
+  )
+
+  const currentFile = {
+    name: basename(args.artifactPath),
+    size: statSync(args.artifactPath).size
+  }
+
+  printInfo(currentFile, latestReleasedFile)
+
+  const result = validateSize(
+    currentFile.size,
+    latestReleasedFile.size,
+    args.maxIncreasePercentage
   )
 
   if (result === 'increase_not_allowed') {
