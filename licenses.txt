@@ -2898,7 +2898,7 @@
 │  ├─ url: lukeed.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/kleur
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/kleur/license
-├─ less-is-more@0.0.3
+├─ less-is-more@0.0.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/caponetto/less-is-more
 │  ├─ publisher: Guilherme H. Caponetto
