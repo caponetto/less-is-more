@@ -8,6 +8,11 @@
 │  ├─ repository: https://github.com/actions/toolkit
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/github
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/github/README.md
+├─ @actions/glob@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/actions/toolkit
+│  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/glob
+│  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/@actions/glob/LICENSE.md
 ├─ @actions/http-client@1.0.11
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/actions/http-client
@@ -2898,7 +2903,7 @@
 │  ├─ url: lukeed.com
 │  ├─ path: /home/guilherme/dev/caponetto/less-is-more/node_modules/kleur
 │  └─ licenseFile: /home/guilherme/dev/caponetto/less-is-more/node_modules/kleur/license
-├─ less-is-more@0.0.4
+├─ less-is-more@0.0.5
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/caponetto/less-is-more
 │  ├─ publisher: Guilherme H. Caponetto
