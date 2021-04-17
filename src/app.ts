@@ -1,34 +1,17 @@
 import {request} from '@octokit/request'
 import {statSync} from 'fs'
 import {basename} from 'path'
-import {WorkflowArgs} from './WorkflowArgs'
+import {Artifact, SizeCheckResult, WorkflowArgs} from './api'
 
-interface File {
-  name: string
-  size: number
-}
-
-export interface Artifact {
-  name: string
-  owner: string
-  repo: string
-}
-
-export type SizeCheckResult =
-  | 'decreased'
-  | 'same'
-  | 'increase_allowed'
-  | 'increase_not_allowed'
-
-export async function getLatestArtifactFile(
+export async function getLatestArtifact(
   releasedArtifact: Artifact,
   token?: string
-): Promise<File> {
+): Promise<Artifact> {
   const response = await request({
     method: 'GET',
     url: '/repos/{owner}/{repo}/releases',
-    owner: releasedArtifact.owner,
-    repo: releasedArtifact.repo,
+    owner: releasedArtifact.repository!.owner,
+    repo: releasedArtifact.repository!.name,
     ...(token && {
       headers: {
         authorization: `token ${token}`
@@ -48,7 +31,8 @@ export async function getLatestArtifactFile(
 
   return {
     name: latestArtifact.name,
-    size: latestArtifact.size
+    size: latestArtifact.size,
+    repository: releasedArtifact.repository
   }
 }
 
@@ -95,35 +79,37 @@ export function matchRule(target: string, rule: string): boolean {
   ).test(target)
 }
 
-function printInfo(current: File, released: File): void {
+function printInfo(current: Artifact, released: Artifact): void {
   console.log(
-    `The size of the current file "${current.name}" is ${current.size} bytes.`
+    `The size of the current artifact "${current.name}" is ${current.size} bytes.`
   )
   console.log(
-    `The size of the released file "${released.name}" is ${released.size} bytes.`
+    `The size of the released artifact "${released.name}" is ${released.size} bytes.`
   )
 }
 
 export async function run(args: WorkflowArgs): Promise<void> {
-  const latestReleasedFile = await getLatestArtifactFile(
+  const latestReleasedArtifact = await getLatestArtifact(
     {
       name: args.releasedArtifactName,
-      owner: args.owner,
-      repo: args.repo
+      repository: {
+        owner: args.repository.owner,
+        name: args.repository.name
+      }
     },
     args.token
   )
 
-  const currentFile = {
+  const currentArtifact = {
     name: basename(args.artifactPath),
     size: statSync(args.artifactPath).size
   }
 
-  printInfo(currentFile, latestReleasedFile)
+  printInfo(currentArtifact, latestReleasedArtifact)
 
   const result = validateSize(
-    currentFile.size,
-    latestReleasedFile.size,
+    currentArtifact.size,
+    latestReleasedArtifact.size!,
     args.maxIncreasePercentage
   )
 

@@ -1,48 +1,57 @@
-import {getLatestArtifactFile, matchRule, validateSize, run} from '../src/app'
-import {WorkflowArgs} from '../src/WorkflowArgs'
+import {getLatestArtifact, matchRule, run, validateSize} from '../src/app'
 
 describe('Get latest artifact', () => {
   it('should throw an error due to invalid name', async () => {
     await expect(
-      getLatestArtifactFile({
+      getLatestArtifact({
         name: 'invalid',
-        owner: 'caponetto',
-        repo: 'vscode-diff-viewer'
+        repository: {
+          owner: 'caponetto',
+          name: 'vscode-diff-viewer'
+        }
       })
     ).rejects.toThrowError()
   })
   it('should throw an error due to invalid owner', async () => {
     await expect(
-      getLatestArtifactFile({
+      getLatestArtifact({
         name: 'artifact-name',
-        owner: 'invalid-owner-12345',
-        repo: 'vscode-diff-viewer'
+        repository: {
+          owner: 'invalid-owner-12345',
+          name: 'vscode-diff-viewer'
+        }
       })
     ).rejects.toThrowError()
   })
   it('should throw an error due to invalid repository', async () => {
     await expect(
-      getLatestArtifactFile({
+      getLatestArtifact({
         name: 'artifact-name',
-        owner: 'caponetto',
-        repo: 'invalid-repo-12345'
+        repository: {
+          owner: 'caponetto',
+          name: 'invalid-repo-12345'
+        }
       })
     ).rejects.toThrowError()
   })
   it('should find the expected artifact - Part of the name', async () => {
     const name = 'vscode_diff_viewer'
-    const file = await getLatestArtifactFile({
+    const file = await getLatestArtifact({
       name: name,
-      owner: 'caponetto',
-      repo: 'vscode-diff-viewer'
+      repository: {
+        owner: 'caponetto',
+        name: 'vscode-diff-viewer'
+      }
     })
     expect(file.name).toMatch(name)
   })
   it('should find the expected artifact - Wildcard', async () => {
-    const file = await getLatestArtifactFile({
+    const file = await getLatestArtifact({
       name: 'vscode_diff_viewer*.vsix',
-      owner: 'caponetto',
-      repo: 'vscode-diff-viewer'
+      repository: {
+        owner: 'caponetto',
+        name: 'vscode-diff-viewer'
+      }
     })
     expect(file.name).toMatch('vscode_diff_viewer')
   })
@@ -85,5 +94,32 @@ describe('Match rule', () => {
     expect(matchRule('StartABCD', 'Start*DD')).toBeFalsy()
     expect(matchRule('ABCDEnd', 'End*')).toBeFalsy()
     expect(matchRule('StartABCDEnd', '*Start*End*')).toBeTruthy()
+  })
+})
+
+describe('App run flow', () => {
+  const testArtifactPath = '__tests__/resources/vscode_diff_viewer_1.1.2.zip'
+  const testReleasedArtifactName = 'vscode_diff_viewer*.vsix'
+  const testRepository = {
+    owner: 'caponetto',
+    name: 'vscode-diff-viewer'
+  }
+  it('should pass without errors', async () => {
+    await run({
+      releasedArtifactName: testReleasedArtifactName,
+      artifactPath: testArtifactPath,
+      maxIncreasePercentage: 70,
+      repository: testRepository
+    })
+  })
+  it('should throw an error', async () => {
+    await expect(
+      run({
+        releasedArtifactName: testReleasedArtifactName,
+        artifactPath: testArtifactPath,
+        maxIncreasePercentage: 10,
+        repository: testRepository
+      })
+    ).rejects.toThrowError()
   })
 })

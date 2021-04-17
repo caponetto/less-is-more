@@ -1,6 +1,6 @@
 {
   "name": "less-is-more",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "author": "Guilherme H. Caponetto",
   "keywords": [
@@ -32,6 +32,7 @@
   "dependencies": {
     "@actions/core": "1.2.6",
     "@actions/github": "4.0.0",
+    "@actions/glob": "0.1.1",
     "@octokit/core": "^3.4.0"
   },
   "devDependencies": {
