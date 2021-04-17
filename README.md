@@ -1,13 +1,13 @@
 [![CI](https://github.com/caponetto/less-is-more/actions/workflows/CI.yml/badge.svg)](https://github.com/caponetto/less-is-more/actions/workflows/CI.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# less-is-more v0.0.4
+# less-is-more v0.0.5
 
 This workflow will simply fail if the current artifact size has increased more than what is allowed when compared to the latest released artifact. It could be very useful to early identify unwanted size increases, especially on workflows that run for pull requests.
 
 ## Required input arguments
 - **released_artifact_name**: The filename of the released artifact (or a unique part of it).
-- **artifact_path**: The path of the current artifact that has been built.
+- **artifact_path**: The path of the current artifact that has been built (or a unique part of it).
 - **max_increase_percentage**: The maximum increase percentage allowed.
 
 ## Optional input arguments
@@ -21,7 +21,7 @@ This workflow will simply fail if the current artifact size has increased more t
 ```yaml
 # Build the artifact before using this workflow.
 
-- uses: caponetto/less-is-more@v0.0.4
+- uses: caponetto/less-is-more@v0.0.5
   with:
     released_artifact_name: my-released-artifact
     artifact_path: dist/my-artifact.zip
