@@ -7,7 +7,7 @@ describe('Get latest artifact', () => {
         name: 'invalid',
         repository: {
           owner: 'caponetto',
-          name: 'vscode-diff-viewer'
+          name: 'less-is-more-tests'
         }
       })
     ).rejects.toThrowError()
@@ -18,7 +18,7 @@ describe('Get latest artifact', () => {
         name: 'artifact-name',
         repository: {
           owner: 'invalid-owner-12345',
-          name: 'vscode-diff-viewer'
+          name: 'less-is-more-tests'
         }
       })
     ).rejects.toThrowError()
@@ -35,25 +35,25 @@ describe('Get latest artifact', () => {
     ).rejects.toThrowError()
   })
   it('should find the expected artifact - Part of the name', async () => {
-    const name = 'vscode_diff_viewer'
+    const name = 'test_release'
     const file = await getLatestArtifact({
       name: name,
       repository: {
         owner: 'caponetto',
-        name: 'vscode-diff-viewer'
+        name: 'less-is-more-tests'
       }
     })
     expect(file.name).toMatch(name)
   })
   it('should find the expected artifact - Wildcard', async () => {
     const file = await getLatestArtifact({
-      name: 'vscode_diff_viewer*.vsix',
+      name: 'test_release*.vsix',
       repository: {
         owner: 'caponetto',
-        name: 'vscode-diff-viewer'
+        name: 'less-is-more-tests'
       }
     })
-    expect(file.name).toMatch('vscode_diff_viewer')
+    expect(file.name).toMatch('test_release')
   })
 })
 
@@ -98,11 +98,11 @@ describe('Match rule', () => {
 })
 
 describe('App run flow', () => {
-  const testArtifactPath = '__tests__/resources/vscode_diff_viewer_1.1.2.zip'
-  const testReleasedArtifactName = 'vscode_diff_viewer*.vsix'
+  const testArtifactPath = '__tests__/resources/test_artifact_1.1.2.zip'
+  const testReleasedArtifactName = 'test_release*.vsix'
   const testRepository = {
     owner: 'caponetto',
-    name: 'vscode-diff-viewer'
+    name: 'less-is-more-tests'
   }
   it('should pass without errors', async () => {
     await run({
