@@ -1,4 +1,5 @@
 [![CI](https://github.com/caponetto/less-is-more/actions/workflows/CI.yml/badge.svg)](https://github.com/caponetto/less-is-more/actions/workflows/CI.yml)
+[![CodeQL](https://github.com/caponetto/less-is-more/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/caponetto/less-is-more/actions/workflows/codeql-analysis.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/release/caponetto/less-is-more.svg)](https://gitHub.com/caponetto/less-is-more/releases/)
 
