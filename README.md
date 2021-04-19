@@ -14,6 +14,7 @@ This workflow will simply fail if the current artifact size has increased more t
 
 ## Optional input arguments
 - **github_token**: The token to authenticate Octokit (increases your API rate limit).
+- **fail_execution**: Fail the execution if the artifact is bigger than allowed (default: true).
 
 ## Usage
 **Example**: I want this workflow to fail if the artifact size that I'm building at `dist/my-artifact.zip` has increased more than *10%* when compared to `my-released-artifact`, which is located on GitHub's releases page.
@@ -23,7 +24,7 @@ This workflow will simply fail if the current artifact size has increased more t
 ```yaml
 # Build the artifact before using this workflow.
 
-- uses: caponetto/less-is-more@v0.0.5
+- uses: caponetto/less-is-more@v0.0.6
   with:
     released_artifact_name: my-released-artifact
     artifact_path: dist/my-artifact.zip
