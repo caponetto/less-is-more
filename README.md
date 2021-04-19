@@ -8,13 +8,17 @@
 This workflow will simply fail if the current artifact size has increased more than what is allowed when compared to the latest released artifact. It could be very useful to early identify unwanted size increases, especially on workflows that run for pull requests.
 
 ## Required input arguments
-- **released_artifact_name**: The filename of the released artifact (or a unique part of it).
-- **artifact_path**: The path of the current artifact that has been built (or a unique part of it).
-- **max_increase_percentage**: The maximum increase percentage allowed.
+Name | Type | Description
+:---: | :---: | ---
+`released_artifact_name` | `string`| The filename of the released artifact (or a unique part of it).
+`artifact_path` | `string` | The path of the current artifact that has been built (or a unique part of it).
+`max_increase_percentage` | `integer > 0` | The maximum increase percentage allowed.
 
 ## Optional input arguments
-- **github_token**: The token to authenticate Octokit (increases your API rate limit).
-- **fail_execution**: Fail the execution if the artifact is bigger than allowed (default: true).
+Name | Type | Description | Default
+:---: | :---: | --- | :---:
+`github_token` | `string` | The token to authenticate Octokit (increases your API rate limit). | `""`
+`fail_execution` | `boolean` | Fail the execution if the artifact is bigger than allowed. | `true`
 
 ## Usage
 **Example**: I want this workflow to fail if the artifact size that I'm building at `dist/my-artifact.zip` has increased more than *10%* when compared to `my-released-artifact`, which is located on GitHub's releases page.
