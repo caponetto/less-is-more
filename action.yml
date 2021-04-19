@@ -15,7 +15,10 @@ inputs:
     description: "The maximum increase percentage allowed."
     required: true
   github_token:
-    description: "The token to authenticate Octokit."
+    description: "The token to authenticate Octokit (default: do not use token)."
+    required: false
+  fail_execution:
+    description: "Fail the execution if the artifact is bigger than allowed (default: true)."
     required: false
 runs:
   using: "node12"
