@@ -1,6 +1,6 @@
 {
   "name": "less-is-more",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "author": "Guilherme H. Caponetto",
   "keywords": [
@@ -27,7 +27,7 @@
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
     "lint": "eslint **/*.ts",
-    "test": "jest --testTimeout 10000 --passWithNoTests"
+    "test": "rm -fr coverage && jest --testTimeout 10000 --coverage"
   },
   "dependencies": {
     "@actions/core": "1.2.6",

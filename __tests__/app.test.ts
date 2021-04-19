@@ -104,22 +104,33 @@ describe('App run flow', () => {
     owner: 'caponetto',
     name: 'less-is-more-tests'
   }
-  it('should pass without errors', async () => {
+  it('should pass without errors due to allowed size', async () => {
     await run({
       releasedArtifactName: testReleasedArtifactName,
       artifactPath: testArtifactPath,
       maxIncreasePercentage: 70,
-      repository: testRepository
+      repository: testRepository,
+      failExecution: true
     })
   })
-  it('should throw an error', async () => {
+  it('should throw an error due to not allowed size', async () => {
     await expect(
       run({
         releasedArtifactName: testReleasedArtifactName,
         artifactPath: testArtifactPath,
         maxIncreasePercentage: 10,
-        repository: testRepository
+        repository: testRepository,
+        failExecution: true
       })
     ).rejects.toThrowError()
+  })
+  it('should pass without errors due to `failExecution` is false though the size is not allowed', async () => {
+    await run({
+      releasedArtifactName: testReleasedArtifactName,
+      artifactPath: testArtifactPath,
+      maxIncreasePercentage: 10,
+      repository: testRepository,
+      failExecution: false
+    })
   })
 })

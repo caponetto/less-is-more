@@ -44,3 +44,9 @@ jobs:
 
     - name: Format
       run: npm run format-check
+
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v2
+      with:
+        name: coverage
+        path: coverage/

@@ -29,6 +29,9 @@ export async function resolveArgs(): Promise<WorkflowArgs> {
   const githubToken = getInput('github_token', {
     required: false
   })
+  const failExecution = getInput('fail_execution', {
+    required: false
+  })
 
   const resolvedArtifactPath = await resolvePath(artifactPath)
   if (!resolvedArtifactPath) {
@@ -37,11 +40,15 @@ export async function resolveArgs(): Promise<WorkflowArgs> {
     )
   }
 
-  if (maxIncreasePercentage <= 0) {
+  if (isNaN(maxIncreasePercentage) || maxIncreasePercentage <= 0) {
     throw new Error(
       'The input `max_increase_percentage` must be an integer greater than zero.'
     )
   }
+
+  const resolvedFailExecution = failExecution
+    ? !(failExecution.toLowerCase() === 'false')
+    : true
 
   return {
     releasedArtifactName: releasedArtifactName,
@@ -51,6 +58,7 @@ export async function resolveArgs(): Promise<WorkflowArgs> {
       owner: context.repo.owner,
       name: context.repo.repo
     },
-    token: githubToken
+    token: githubToken,
+    failExecution: resolvedFailExecution
   }
 }

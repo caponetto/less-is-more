@@ -15,6 +15,7 @@ export interface WorkflowArgs {
   artifactPath: string
   maxIncreasePercentage: number
   repository: RepositoryInfo
+  failExecution: boolean
   token?: string
 }
 

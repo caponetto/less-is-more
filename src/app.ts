@@ -114,6 +114,10 @@ export async function run(args: WorkflowArgs): Promise<void> {
   )
 
   if (result === 'increase_not_allowed') {
-    throw new Error('Check the artifact size. Less is more!')
+    const message = 'Check the artifact size. Less is more!'
+    if (args.failExecution) {
+      throw new Error(message)
+    }
+    console.log(message)
   }
 }
