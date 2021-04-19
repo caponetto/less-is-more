@@ -12,7 +12,7 @@ Name | Type | Description
 :---: | :---: | ---
 `released_artifact_name` | `string`| The filename of the released artifact (or a unique part of it).
 `artifact_path` | `string` | The path of the current artifact that has been built (or a unique part of it).
-`max_increase_percentage` | `int > 0` | The maximum increase percentage allowed.
+`max_increase_percentage` | `int>0` | The maximum increase percentage allowed.
 
 ## Optional input arguments
 Name | Type | Description | Default
