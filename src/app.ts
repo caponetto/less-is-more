@@ -1,3 +1,4 @@
+import {warning} from '@actions/core'
 import {request} from '@octokit/request'
 import {statSync} from 'fs'
 import {basename} from 'path'
@@ -57,13 +58,13 @@ export function validateSize(
 
   if (increasePercentage <= maxIncreasePercentage) {
     console.log(
-      `The current artifact size has increased ${increasePercentage}%, which *is* allowed.`
+      `The current artifact size has increased ~${increasePercentage}%, which *is* allowed.`
     )
     return 'increase_allowed'
   }
 
   console.log(
-    `The current artifact size has increased ${increasePercentage}%, which *is not* allowed.`
+    `The current artifact size has increased ~${increasePercentage}%, which *is not* allowed.`
   )
   return 'increase_not_allowed'
 }
@@ -118,6 +119,6 @@ export async function run(args: WorkflowArgs): Promise<void> {
     if (args.failExecution) {
       throw new Error(message)
     }
-    console.log(message)
+    warning(message)
   }
 }
