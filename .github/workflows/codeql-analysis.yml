@@ -2,33 +2,31 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
-  schedule:
-    - cron: '0 8 * * 5'
+    branches: "**"
+
+concurrency:
+  group: ${{ github.event.pull_request && format('codeql-pr-{0}', github.event.pull_request.number) || 'codeql-push-main' }}
+  cancel-in-progress: true
 
 jobs:
   analyze:
-    name: Analyze
     runs-on: ubuntu-latest
 
-    strategy:
-      fail-fast: false
-      matrix:
-        language: [ 'javascript' ]
-
     steps:
-    - name: Checkout repository
+    - name: "Checkout"
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
 
-    - name: Initialize CodeQL
+    - name: "Initialize"
       uses: github/codeql-action/init@v1
       with:
-        languages: ${{ matrix.language }}
+        languages: "javascript"
 
-    - name: Autobuild
+    - name: "Autobuild"
       uses: github/codeql-action/autobuild@v1
 
-    - name: Perform CodeQL Analysis
+    - name: "Analysis"
       uses: github/codeql-action/analyze@v1
